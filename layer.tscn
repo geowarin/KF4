@@ -1,0 +1,5469 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://KF4 collision map.glb" type="PackedScene" id=1]
+[ext_resource path="res://maps/000.glb" type="PackedScene" id=2]
+[ext_resource path="res://maps/002.glb" type="PackedScene" id=3]
+[ext_resource path="res://maps/005.glb" type="PackedScene" id=4]
+[ext_resource path="res://maps/004.glb" type="PackedScene" id=5]
+[ext_resource path="res://maps/006.glb" type="PackedScene" id=6]
+[ext_resource path="res://maps/007.glb" type="PackedScene" id=7]
+[ext_resource path="res://maps/008.glb" type="PackedScene" id=8]
+[ext_resource path="res://maps/009.glb" type="PackedScene" id=9]
+[ext_resource path="res://maps/011.glb" type="PackedScene" id=10]
+[ext_resource path="res://maps/012.glb" type="PackedScene" id=11]
+[ext_resource path="res://maps/013.glb" type="PackedScene" id=12]
+[ext_resource path="res://maps/014.glb" type="PackedScene" id=13]
+[ext_resource path="res://maps/015.glb" type="PackedScene" id=14]
+[ext_resource path="res://FlyCam.gd" type="Script" id=15]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="KF4 collision map" parent="." instance=ExtResource( 1 )]
+
+[node name="000map - B0" parent="KF4 collision map" index="0"]
+visible = false
+
+[node name="000map - B1" parent="KF4 collision map" index="1"]
+visible = false
+
+[node name="000map - B2" parent="KF4 collision map" index="2"]
+visible = false
+
+[node name="000map - B3" parent="KF4 collision map" index="3"]
+visible = false
+
+[node name="000map - B4" parent="KF4 collision map" index="4"]
+visible = false
+
+[node name="000map - B5" parent="KF4 collision map" index="5"]
+visible = false
+
+[node name="000map - B6" parent="KF4 collision map" index="6"]
+visible = false
+
+[node name="000map - B7" parent="KF4 collision map" index="7"]
+visible = false
+
+[node name="000map - B8" parent="KF4 collision map" index="8"]
+visible = false
+
+[node name="000map - B9" parent="KF4 collision map" index="9"]
+visible = false
+
+[node name="000map - B10" parent="KF4 collision map" index="10"]
+visible = false
+
+[node name="000map - B11" parent="KF4 collision map" index="11"]
+visible = false
+
+[node name="000map - B12" parent="KF4 collision map" index="12"]
+visible = false
+
+[node name="000map - B13001" parent="KF4 collision map" index="13"]
+visible = false
+
+[node name="000map - B14" parent="KF4 collision map" index="14"]
+visible = false
+
+[node name="000map - B15" parent="KF4 collision map" index="15"]
+visible = false
+
+[node name="000map - B16" parent="KF4 collision map" index="16"]
+visible = false
+
+[node name="000map - B17" parent="KF4 collision map" index="17"]
+visible = false
+
+[node name="000map - B18" parent="KF4 collision map" index="18"]
+visible = false
+
+[node name="000map - B19" parent="KF4 collision map" index="19"]
+visible = false
+
+[node name="000map - B20" parent="KF4 collision map" index="20"]
+visible = false
+
+[node name="000map - B21" parent="KF4 collision map" index="21"]
+visible = false
+
+[node name="000map - B22" parent="KF4 collision map" index="22"]
+visible = false
+
+[node name="000map - B23" parent="KF4 collision map" index="23"]
+visible = false
+
+[node name="000map - B24" parent="KF4 collision map" index="24"]
+visible = false
+
+[node name="000map - B25" parent="KF4 collision map" index="25"]
+visible = false
+
+[node name="000map - B26" parent="KF4 collision map" index="26"]
+visible = false
+
+[node name="000map - B27" parent="KF4 collision map" index="27"]
+visible = false
+
+[node name="000map - B28" parent="KF4 collision map" index="28"]
+visible = false
+
+[node name="000map - B29" parent="KF4 collision map" index="29"]
+visible = false
+
+[node name="000map - B30" parent="KF4 collision map" index="30"]
+visible = false
+
+[node name="000map - B31" parent="KF4 collision map" index="31"]
+visible = false
+
+[node name="000map - B32" parent="KF4 collision map" index="32"]
+visible = false
+
+[node name="000map - B33" parent="KF4 collision map" index="33"]
+visible = false
+
+[node name="000map - B34" parent="KF4 collision map" index="34"]
+visible = false
+
+[node name="000map - B35" parent="KF4 collision map" index="35"]
+visible = false
+
+[node name="000map - B36" parent="KF4 collision map" index="36"]
+visible = false
+
+[node name="000map - B37" parent="KF4 collision map" index="37"]
+visible = false
+
+[node name="000map - B38" parent="KF4 collision map" index="38"]
+visible = false
+
+[node name="000map - B39" parent="KF4 collision map" index="39"]
+visible = false
+
+[node name="000map - B13" parent="KF4 collision map" index="40"]
+visible = false
+
+[node name="002map - B0" parent="KF4 collision map" index="41"]
+visible = false
+
+[node name="002map - B1" parent="KF4 collision map" index="42"]
+visible = false
+
+[node name="002map - B2" parent="KF4 collision map" index="43"]
+visible = false
+
+[node name="002map - B3" parent="KF4 collision map" index="44"]
+visible = false
+
+[node name="002map - B4" parent="KF4 collision map" index="45"]
+visible = false
+
+[node name="002map - B5" parent="KF4 collision map" index="46"]
+visible = false
+
+[node name="002map - B6" parent="KF4 collision map" index="47"]
+visible = false
+
+[node name="002map - B7" parent="KF4 collision map" index="48"]
+visible = false
+
+[node name="002map - B8" parent="KF4 collision map" index="49"]
+visible = false
+
+[node name="002map - B9" parent="KF4 collision map" index="50"]
+visible = false
+
+[node name="002map - B10" parent="KF4 collision map" index="51"]
+visible = false
+
+[node name="002map - B11" parent="KF4 collision map" index="52"]
+visible = false
+
+[node name="002map - B12" parent="KF4 collision map" index="53"]
+visible = false
+
+[node name="002map - B13" parent="KF4 collision map" index="54"]
+visible = false
+
+[node name="002map - B14" parent="KF4 collision map" index="55"]
+visible = false
+
+[node name="002map - B15" parent="KF4 collision map" index="56"]
+visible = false
+
+[node name="002map - B16" parent="KF4 collision map" index="57"]
+visible = false
+
+[node name="004map - B0" parent="KF4 collision map" index="58"]
+visible = false
+
+[node name="004map - B1" parent="KF4 collision map" index="59"]
+visible = false
+
+[node name="004map - B2001" parent="KF4 collision map" index="60"]
+visible = false
+
+[node name="004map - B2" parent="KF4 collision map" index="61"]
+visible = false
+
+[node name="004map - B3" parent="KF4 collision map" index="62"]
+visible = false
+
+[node name="004map - B4" parent="KF4 collision map" index="63"]
+visible = false
+
+[node name="005map - B0" parent="KF4 collision map" index="64"]
+visible = false
+
+[node name="005map - B1" parent="KF4 collision map" index="65"]
+visible = false
+
+[node name="005map - B2001" parent="KF4 collision map" index="66"]
+visible = false
+
+[node name="005map - B3" parent="KF4 collision map" index="67"]
+visible = false
+
+[node name="005map - B4" parent="KF4 collision map" index="68"]
+visible = false
+
+[node name="005map - B2002" parent="KF4 collision map" index="69"]
+visible = false
+
+[node name="005map - B2003" parent="KF4 collision map" index="70"]
+visible = false
+
+[node name="005map - B5" parent="KF4 collision map" index="71"]
+visible = false
+
+[node name="005map - B6001" parent="KF4 collision map" index="72"]
+visible = false
+
+[node name="005map - B6" parent="KF4 collision map" index="73"]
+visible = false
+
+[node name="005map - B7" parent="KF4 collision map" index="74"]
+visible = false
+
+[node name="005map - B8" parent="KF4 collision map" index="75"]
+visible = false
+
+[node name="005map - B9" parent="KF4 collision map" index="76"]
+visible = false
+
+[node name="005map - B10" parent="KF4 collision map" index="77"]
+visible = false
+
+[node name="005map - B2004" parent="KF4 collision map" index="78"]
+visible = false
+
+[node name="005map - B11" parent="KF4 collision map" index="79"]
+visible = false
+
+[node name="005map - B2005" parent="KF4 collision map" index="80"]
+visible = false
+
+[node name="005map - B2006" parent="KF4 collision map" index="81"]
+visible = false
+
+[node name="005map - B2" parent="KF4 collision map" index="82"]
+visible = false
+
+[node name="005map - B12" parent="KF4 collision map" index="83"]
+visible = false
+
+[node name="005map - B13" parent="KF4 collision map" index="84"]
+visible = false
+
+[node name="005map - B14" parent="KF4 collision map" index="85"]
+visible = false
+
+[node name="005map - B15" parent="KF4 collision map" index="86"]
+visible = false
+
+[node name="005map - B16001" parent="KF4 collision map" index="87"]
+visible = false
+
+[node name="005map - B16002" parent="KF4 collision map" index="88"]
+visible = false
+
+[node name="005map - B16003" parent="KF4 collision map" index="89"]
+visible = false
+
+[node name="005map - B16" parent="KF4 collision map" index="90"]
+visible = false
+
+[node name="006map - B0" parent="KF4 collision map" index="91"]
+visible = false
+
+[node name="006map - B1" parent="KF4 collision map" index="92"]
+visible = false
+
+[node name="006map - B2" parent="KF4 collision map" index="93"]
+visible = false
+
+[node name="006map - B3" parent="KF4 collision map" index="94"]
+visible = false
+
+[node name="006map - B4" parent="KF4 collision map" index="95"]
+visible = false
+
+[node name="006map - B5" parent="KF4 collision map" index="96"]
+visible = false
+
+[node name="006map - B6" parent="KF4 collision map" index="97"]
+visible = false
+
+[node name="006map - B7" parent="KF4 collision map" index="98"]
+visible = false
+
+[node name="006map - B8" parent="KF4 collision map" index="99"]
+visible = false
+
+[node name="006map - B9" parent="KF4 collision map" index="100"]
+visible = false
+
+[node name="006map - B10" parent="KF4 collision map" index="101"]
+visible = false
+
+[node name="006map - B11" parent="KF4 collision map" index="102"]
+visible = false
+
+[node name="006map - B12" parent="KF4 collision map" index="103"]
+visible = false
+
+[node name="006map - B13" parent="KF4 collision map" index="104"]
+visible = false
+
+[node name="006map - B14" parent="KF4 collision map" index="105"]
+visible = false
+
+[node name="006map - B15" parent="KF4 collision map" index="106"]
+visible = false
+
+[node name="006map - B16" parent="KF4 collision map" index="107"]
+visible = false
+
+[node name="006map - B17" parent="KF4 collision map" index="108"]
+visible = false
+
+[node name="006map - B18" parent="KF4 collision map" index="109"]
+visible = false
+
+[node name="006map - B19" parent="KF4 collision map" index="110"]
+visible = false
+
+[node name="006map - B20" parent="KF4 collision map" index="111"]
+visible = false
+
+[node name="006map - B21" parent="KF4 collision map" index="112"]
+visible = false
+
+[node name="006map - B22" parent="KF4 collision map" index="113"]
+visible = false
+
+[node name="006map - B23" parent="KF4 collision map" index="114"]
+visible = false
+
+[node name="006map - B24" parent="KF4 collision map" index="115"]
+visible = false
+
+[node name="006map - B25" parent="KF4 collision map" index="116"]
+visible = false
+
+[node name="006map - B26001" parent="KF4 collision map" index="117"]
+visible = false
+
+[node name="006map - B26002" parent="KF4 collision map" index="118"]
+visible = false
+
+[node name="006map - B26003" parent="KF4 collision map" index="119"]
+visible = false
+
+[node name="006map - B26004" parent="KF4 collision map" index="120"]
+visible = false
+
+[node name="006map - B26005" parent="KF4 collision map" index="121"]
+visible = false
+
+[node name="006map - B26006" parent="KF4 collision map" index="122"]
+visible = false
+
+[node name="006map - B26007" parent="KF4 collision map" index="123"]
+visible = false
+
+[node name="006map - B27001" parent="KF4 collision map" index="124"]
+visible = false
+
+[node name="006map - B27002" parent="KF4 collision map" index="125"]
+visible = false
+
+[node name="006map - B27003" parent="KF4 collision map" index="126"]
+visible = false
+
+[node name="006map - B27004" parent="KF4 collision map" index="127"]
+visible = false
+
+[node name="006map - B27005" parent="KF4 collision map" index="128"]
+visible = false
+
+[node name="006map - B27006" parent="KF4 collision map" index="129"]
+visible = false
+
+[node name="006map - B27007" parent="KF4 collision map" index="130"]
+visible = false
+
+[node name="006map - B27008" parent="KF4 collision map" index="131"]
+visible = false
+
+[node name="006map - B27009" parent="KF4 collision map" index="132"]
+visible = false
+
+[node name="006map - B27010" parent="KF4 collision map" index="133"]
+visible = false
+
+[node name="006map - B27011" parent="KF4 collision map" index="134"]
+visible = false
+
+[node name="006map - B27012" parent="KF4 collision map" index="135"]
+visible = false
+
+[node name="006map - B27013" parent="KF4 collision map" index="136"]
+visible = false
+
+[node name="006map - B27014" parent="KF4 collision map" index="137"]
+visible = false
+
+[node name="006map - B27015" parent="KF4 collision map" index="138"]
+visible = false
+
+[node name="006map - B27016" parent="KF4 collision map" index="139"]
+visible = false
+
+[node name="006map - B27017" parent="KF4 collision map" index="140"]
+visible = false
+
+[node name="006map - B27018" parent="KF4 collision map" index="141"]
+visible = false
+
+[node name="006map - B27019" parent="KF4 collision map" index="142"]
+visible = false
+
+[node name="006map - B27" parent="KF4 collision map" index="143"]
+visible = false
+
+[node name="006map - B28" parent="KF4 collision map" index="144"]
+visible = false
+
+[node name="006map - B26008" parent="KF4 collision map" index="145"]
+visible = false
+
+[node name="006map - B26009" parent="KF4 collision map" index="146"]
+visible = false
+
+[node name="006map - B29" parent="KF4 collision map" index="147"]
+visible = false
+
+[node name="006map - B30" parent="KF4 collision map" index="148"]
+visible = false
+
+[node name="006map - B31" parent="KF4 collision map" index="149"]
+visible = false
+
+[node name="006map - B32" parent="KF4 collision map" index="150"]
+visible = false
+
+[node name="006map - B33" parent="KF4 collision map" index="151"]
+visible = false
+
+[node name="006map - B34" parent="KF4 collision map" index="152"]
+visible = false
+
+[node name="006map - B35" parent="KF4 collision map" index="153"]
+visible = false
+
+[node name="006map - B36" parent="KF4 collision map" index="154"]
+visible = false
+
+[node name="006map - B37" parent="KF4 collision map" index="155"]
+visible = false
+
+[node name="006map - B26010" parent="KF4 collision map" index="156"]
+visible = false
+
+[node name="006map - B38001" parent="KF4 collision map" index="157"]
+visible = false
+
+[node name="006map - B38" parent="KF4 collision map" index="158"]
+visible = false
+
+[node name="006map - B39001" parent="KF4 collision map" index="159"]
+visible = false
+
+[node name="006map - B39" parent="KF4 collision map" index="160"]
+visible = false
+
+[node name="006map - B40001" parent="KF4 collision map" index="161"]
+visible = false
+
+[node name="006map - B40" parent="KF4 collision map" index="162"]
+visible = false
+
+[node name="006map - B41001" parent="KF4 collision map" index="163"]
+visible = false
+
+[node name="006map - B41" parent="KF4 collision map" index="164"]
+visible = false
+
+[node name="006map - B26" parent="KF4 collision map" index="165"]
+visible = false
+
+[node name="007map - B0" parent="KF4 collision map" index="166"]
+visible = false
+
+[node name="007map - B1" parent="KF4 collision map" index="167"]
+visible = false
+
+[node name="007map - B2" parent="KF4 collision map" index="168"]
+visible = false
+
+[node name="007map - B3" parent="KF4 collision map" index="169"]
+visible = false
+
+[node name="007map - B4" parent="KF4 collision map" index="170"]
+visible = false
+
+[node name="007map - B5" parent="KF4 collision map" index="171"]
+visible = false
+
+[node name="007map - B6" parent="KF4 collision map" index="172"]
+visible = false
+
+[node name="007map - B7" parent="KF4 collision map" index="173"]
+visible = false
+
+[node name="007map - B8" parent="KF4 collision map" index="174"]
+visible = false
+
+[node name="007map - B9" parent="KF4 collision map" index="175"]
+visible = false
+
+[node name="007map - B10" parent="KF4 collision map" index="176"]
+visible = false
+
+[node name="007map - B11" parent="KF4 collision map" index="177"]
+visible = false
+
+[node name="007map - B12001" parent="KF4 collision map" index="178"]
+visible = false
+
+[node name="007map - B12002" parent="KF4 collision map" index="179"]
+visible = false
+
+[node name="007map - B12003" parent="KF4 collision map" index="180"]
+visible = false
+
+[node name="007map - B13" parent="KF4 collision map" index="181"]
+visible = false
+
+[node name="007map - B14" parent="KF4 collision map" index="182"]
+visible = false
+
+[node name="007map - B15" parent="KF4 collision map" index="183"]
+visible = false
+
+[node name="007map - B16" parent="KF4 collision map" index="184"]
+visible = false
+
+[node name="007map - B17" parent="KF4 collision map" index="185"]
+visible = false
+
+[node name="007map - B18" parent="KF4 collision map" index="186"]
+visible = false
+
+[node name="007map - B19" parent="KF4 collision map" index="187"]
+visible = false
+
+[node name="007map - B20" parent="KF4 collision map" index="188"]
+visible = false
+
+[node name="007map - B21" parent="KF4 collision map" index="189"]
+visible = false
+
+[node name="007map - B22" parent="KF4 collision map" index="190"]
+visible = false
+
+[node name="007map - B12004" parent="KF4 collision map" index="191"]
+visible = false
+
+[node name="007map - B12" parent="KF4 collision map" index="192"]
+visible = false
+
+[node name="007map - B23001" parent="KF4 collision map" index="193"]
+visible = false
+
+[node name="007map - B23002" parent="KF4 collision map" index="194"]
+visible = false
+
+[node name="007map - B23003" parent="KF4 collision map" index="195"]
+visible = false
+
+[node name="007map - B23004" parent="KF4 collision map" index="196"]
+visible = false
+
+[node name="007map - B23005" parent="KF4 collision map" index="197"]
+visible = false
+
+[node name="007map - B23006" parent="KF4 collision map" index="198"]
+visible = false
+
+[node name="007map - B23007" parent="KF4 collision map" index="199"]
+visible = false
+
+[node name="007map - B23" parent="KF4 collision map" index="200"]
+visible = false
+
+[node name="007map - B24001" parent="KF4 collision map" index="201"]
+visible = false
+
+[node name="007map - B24002" parent="KF4 collision map" index="202"]
+visible = false
+
+[node name="007map - B24003" parent="KF4 collision map" index="203"]
+visible = false
+
+[node name="007map - B24" parent="KF4 collision map" index="204"]
+visible = false
+
+[node name="007map - B25001" parent="KF4 collision map" index="205"]
+visible = false
+
+[node name="007map - B25" parent="KF4 collision map" index="206"]
+visible = false
+
+[node name="007map - B26001" parent="KF4 collision map" index="207"]
+visible = false
+
+[node name="007map - B26" parent="KF4 collision map" index="208"]
+visible = false
+
+[node name="007map - B27001" parent="KF4 collision map" index="209"]
+visible = false
+
+[node name="007map - B27002" parent="KF4 collision map" index="210"]
+visible = false
+
+[node name="007map - B27003" parent="KF4 collision map" index="211"]
+visible = false
+
+[node name="007map - B27004" parent="KF4 collision map" index="212"]
+visible = false
+
+[node name="007map - B27005" parent="KF4 collision map" index="213"]
+visible = false
+
+[node name="007map - B27006" parent="KF4 collision map" index="214"]
+visible = false
+
+[node name="007map - B27" parent="KF4 collision map" index="215"]
+visible = false
+
+[node name="008map - B0" parent="KF4 collision map" index="216"]
+visible = false
+
+[node name="008map - B1" parent="KF4 collision map" index="217"]
+visible = false
+
+[node name="008map - B2" parent="KF4 collision map" index="218"]
+visible = false
+
+[node name="008map - B3" parent="KF4 collision map" index="219"]
+visible = false
+
+[node name="008map - B4" parent="KF4 collision map" index="220"]
+visible = false
+
+[node name="008map - B5" parent="KF4 collision map" index="221"]
+visible = false
+
+[node name="008map - B6" parent="KF4 collision map" index="222"]
+visible = false
+
+[node name="008map - B7001" parent="KF4 collision map" index="223"]
+visible = false
+
+[node name="008map - B8001" parent="KF4 collision map" index="224"]
+visible = false
+
+[node name="008map - B7" parent="KF4 collision map" index="225"]
+visible = false
+
+[node name="008map - B9" parent="KF4 collision map" index="226"]
+visible = false
+
+[node name="008map - B10" parent="KF4 collision map" index="227"]
+visible = false
+
+[node name="008map - B11001" parent="KF4 collision map" index="228"]
+visible = false
+
+[node name="008map - B12" parent="KF4 collision map" index="229"]
+visible = false
+
+[node name="008map - B11" parent="KF4 collision map" index="230"]
+visible = false
+
+[node name="008map - B13" parent="KF4 collision map" index="231"]
+visible = false
+
+[node name="008map - B14" parent="KF4 collision map" index="232"]
+visible = false
+
+[node name="008map - B15001" parent="KF4 collision map" index="233"]
+visible = false
+
+[node name="008map - B16" parent="KF4 collision map" index="234"]
+visible = false
+
+[node name="008map - B17" parent="KF4 collision map" index="235"]
+visible = false
+
+[node name="008map - B18" parent="KF4 collision map" index="236"]
+visible = false
+
+[node name="008map - B19001" parent="KF4 collision map" index="237"]
+visible = false
+
+[node name="008map - B20" parent="KF4 collision map" index="238"]
+visible = false
+
+[node name="008map - B21" parent="KF4 collision map" index="239"]
+visible = false
+
+[node name="008map - B19002" parent="KF4 collision map" index="240"]
+visible = false
+
+[node name="008map - B19" parent="KF4 collision map" index="241"]
+visible = false
+
+[node name="008map - B22001" parent="KF4 collision map" index="242"]
+visible = false
+
+[node name="008map - B22" parent="KF4 collision map" index="243"]
+visible = false
+
+[node name="008map - B23001" parent="KF4 collision map" index="244"]
+visible = false
+
+[node name="008map - B15" parent="KF4 collision map" index="245"]
+visible = false
+
+[node name="008map - B24" parent="KF4 collision map" index="246"]
+visible = false
+
+[node name="008map - B23002" parent="KF4 collision map" index="247"]
+visible = false
+
+[node name="008map - B25" parent="KF4 collision map" index="248"]
+visible = false
+
+[node name="008map - B26" parent="KF4 collision map" index="249"]
+visible = false
+
+[node name="008map - B27" parent="KF4 collision map" index="250"]
+visible = false
+
+[node name="008map - B28" parent="KF4 collision map" index="251"]
+visible = false
+
+[node name="008map - B8" parent="KF4 collision map" index="252"]
+visible = false
+
+[node name="008map - B23" parent="KF4 collision map" index="253"]
+visible = false
+
+[node name="009map - B0" parent="KF4 collision map" index="254"]
+visible = false
+
+[node name="009map - B1001" parent="KF4 collision map" index="255"]
+visible = false
+
+[node name="009map - B2" parent="KF4 collision map" index="256"]
+visible = false
+
+[node name="009map - B1" parent="KF4 collision map" index="257"]
+visible = false
+
+[node name="009map - B3" parent="KF4 collision map" index="258"]
+visible = false
+
+[node name="009map - B4" parent="KF4 collision map" index="259"]
+visible = false
+
+[node name="009map - B5" parent="KF4 collision map" index="260"]
+visible = false
+
+[node name="009map - B6" parent="KF4 collision map" index="261"]
+visible = false
+
+[node name="009map - B7" parent="KF4 collision map" index="262"]
+visible = false
+
+[node name="011map - B0" parent="KF4 collision map" index="263"]
+visible = false
+
+[node name="011map - B1" parent="KF4 collision map" index="264"]
+visible = false
+
+[node name="011map - B2" parent="KF4 collision map" index="265"]
+visible = false
+
+[node name="012map - B0" parent="KF4 collision map" index="266"]
+visible = false
+
+[node name="012map - B1" parent="KF4 collision map" index="267"]
+visible = false
+
+[node name="012map - B2" parent="KF4 collision map" index="268"]
+visible = false
+
+[node name="012map - B3" parent="KF4 collision map" index="269"]
+visible = false
+
+[node name="012map - B4" parent="KF4 collision map" index="270"]
+visible = false
+
+[node name="012map - B5" parent="KF4 collision map" index="271"]
+visible = false
+
+[node name="012map - B6" parent="KF4 collision map" index="272"]
+visible = false
+
+[node name="012map - B7" parent="KF4 collision map" index="273"]
+visible = false
+
+[node name="012map - B8" parent="KF4 collision map" index="274"]
+visible = false
+
+[node name="012map - B9" parent="KF4 collision map" index="275"]
+visible = false
+
+[node name="012map - B10" parent="KF4 collision map" index="276"]
+visible = false
+
+[node name="012map - B11" parent="KF4 collision map" index="277"]
+visible = false
+
+[node name="012map - B12" parent="KF4 collision map" index="278"]
+visible = false
+
+[node name="012map - B13" parent="KF4 collision map" index="279"]
+visible = false
+
+[node name="012map - B14" parent="KF4 collision map" index="280"]
+visible = false
+
+[node name="012map - B15" parent="KF4 collision map" index="281"]
+visible = false
+
+[node name="012map - B16" parent="KF4 collision map" index="282"]
+visible = false
+
+[node name="012map - B17" parent="KF4 collision map" index="283"]
+visible = false
+
+[node name="012map - B18" parent="KF4 collision map" index="284"]
+visible = false
+
+[node name="012map - B19" parent="KF4 collision map" index="285"]
+visible = false
+
+[node name="012map - B20" parent="KF4 collision map" index="286"]
+visible = false
+
+[node name="012map - B21" parent="KF4 collision map" index="287"]
+visible = false
+
+[node name="012map - B22" parent="KF4 collision map" index="288"]
+visible = false
+
+[node name="012map - B23" parent="KF4 collision map" index="289"]
+visible = false
+
+[node name="012map - B24" parent="KF4 collision map" index="290"]
+visible = false
+
+[node name="012map - B25" parent="KF4 collision map" index="291"]
+visible = false
+
+[node name="013map - B0" parent="KF4 collision map" index="292"]
+visible = false
+
+[node name="013map - B1" parent="KF4 collision map" index="293"]
+visible = false
+
+[node name="013map - B2" parent="KF4 collision map" index="294"]
+visible = false
+
+[node name="013map - B3" parent="KF4 collision map" index="295"]
+visible = false
+
+[node name="013map - B4" parent="KF4 collision map" index="296"]
+visible = false
+
+[node name="013map - B5" parent="KF4 collision map" index="297"]
+visible = false
+
+[node name="013map - B6" parent="KF4 collision map" index="298"]
+visible = false
+
+[node name="013map - B7" parent="KF4 collision map" index="299"]
+visible = false
+
+[node name="013map - B8" parent="KF4 collision map" index="300"]
+visible = false
+
+[node name="013map - B9" parent="KF4 collision map" index="301"]
+visible = false
+
+[node name="013map - B10" parent="KF4 collision map" index="302"]
+visible = false
+
+[node name="013map - B11" parent="KF4 collision map" index="303"]
+visible = false
+
+[node name="013map - B12" parent="KF4 collision map" index="304"]
+visible = false
+
+[node name="013map - B13" parent="KF4 collision map" index="305"]
+visible = false
+
+[node name="013map - B14" parent="KF4 collision map" index="306"]
+visible = false
+
+[node name="013map - B15" parent="KF4 collision map" index="307"]
+visible = false
+
+[node name="013map - B16" parent="KF4 collision map" index="308"]
+visible = false
+
+[node name="013map - B17" parent="KF4 collision map" index="309"]
+visible = false
+
+[node name="013map - B18" parent="KF4 collision map" index="310"]
+visible = false
+
+[node name="013map - B19" parent="KF4 collision map" index="311"]
+visible = false
+
+[node name="013map - B20" parent="KF4 collision map" index="312"]
+visible = false
+
+[node name="013map - B21" parent="KF4 collision map" index="313"]
+visible = false
+
+[node name="013map - B22" parent="KF4 collision map" index="314"]
+visible = false
+
+[node name="013map - B23" parent="KF4 collision map" index="315"]
+visible = false
+
+[node name="013map - B24" parent="KF4 collision map" index="316"]
+visible = false
+
+[node name="013map - B25" parent="KF4 collision map" index="317"]
+visible = false
+
+[node name="013map - B26" parent="KF4 collision map" index="318"]
+visible = false
+
+[node name="013map - B27" parent="KF4 collision map" index="319"]
+visible = false
+
+[node name="014map - B0" parent="KF4 collision map" index="320"]
+visible = false
+
+[node name="014map - B1001" parent="KF4 collision map" index="321"]
+visible = false
+
+[node name="014map - B1002" parent="KF4 collision map" index="322"]
+visible = false
+
+[node name="014map - B1003" parent="KF4 collision map" index="323"]
+visible = false
+
+[node name="014map - B1004" parent="KF4 collision map" index="324"]
+visible = false
+
+[node name="014map - B1005" parent="KF4 collision map" index="325"]
+visible = false
+
+[node name="014map - B1006" parent="KF4 collision map" index="326"]
+visible = false
+
+[node name="014map - B1007" parent="KF4 collision map" index="327"]
+visible = false
+
+[node name="014map - B1008" parent="KF4 collision map" index="328"]
+visible = false
+
+[node name="014map - B1009" parent="KF4 collision map" index="329"]
+visible = false
+
+[node name="014map - B1010" parent="KF4 collision map" index="330"]
+visible = false
+
+[node name="014map - B1" parent="KF4 collision map" index="331"]
+visible = false
+
+[node name="014map - B2" parent="KF4 collision map" index="332"]
+visible = false
+
+[node name="014map - B3001" parent="KF4 collision map" index="333"]
+visible = false
+
+[node name="014map - B3" parent="KF4 collision map" index="334"]
+visible = false
+
+[node name="014map - B4001" parent="KF4 collision map" index="335"]
+visible = false
+
+[node name="014map - B4" parent="KF4 collision map" index="336"]
+visible = false
+
+[node name="014map - B5" parent="KF4 collision map" index="337"]
+visible = false
+
+[node name="014map - B6" parent="KF4 collision map" index="338"]
+visible = false
+
+[node name="014map - B7001" parent="KF4 collision map" index="339"]
+visible = false
+
+[node name="014map - B7" parent="KF4 collision map" index="340"]
+visible = false
+
+[node name="014map - B8" parent="KF4 collision map" index="341"]
+visible = false
+
+[node name="014map - B9001" parent="KF4 collision map" index="342"]
+visible = false
+
+[node name="014map - B10" parent="KF4 collision map" index="343"]
+visible = false
+
+[node name="014map - B9" parent="KF4 collision map" index="344"]
+visible = false
+
+[node name="014map - B11" parent="KF4 collision map" index="345"]
+visible = false
+
+[node name="014map - B12" parent="KF4 collision map" index="346"]
+visible = false
+
+[node name="014map - B16" parent="KF4 collision map" index="347"]
+visible = false
+
+[node name="014map - B17" parent="KF4 collision map" index="348"]
+visible = false
+
+[node name="014map - B18" parent="KF4 collision map" index="349"]
+visible = false
+
+[node name="014map - B19" parent="KF4 collision map" index="350"]
+visible = false
+
+[node name="014map - B20" parent="KF4 collision map" index="351"]
+visible = false
+
+[node name="014map - B21" parent="KF4 collision map" index="352"]
+visible = false
+
+[node name="029map - B0" parent="KF4 collision map" index="353"]
+visible = false
+
+[node name="029map - B1" parent="KF4 collision map" index="354"]
+visible = false
+
+[node name="029map - B2" parent="KF4 collision map" index="355"]
+visible = false
+
+[node name="029map - B3" parent="KF4 collision map" index="356"]
+visible = false
+
+[node name="029map - B4" parent="KF4 collision map" index="357"]
+visible = false
+
+[node name="029map - B6" parent="KF4 collision map" index="358"]
+visible = false
+
+[node name="029map - B7" parent="KF4 collision map" index="359"]
+visible = false
+
+[node name="029map - B8" parent="KF4 collision map" index="360"]
+visible = false
+
+[node name="029map - B9" parent="KF4 collision map" index="361"]
+visible = false
+
+[node name="029map - B10" parent="KF4 collision map" index="362"]
+visible = false
+
+[node name="030map - B0" parent="KF4 collision map" index="363"]
+visible = false
+
+[node name="030map - B1" parent="KF4 collision map" index="364"]
+visible = false
+
+[node name="030map - B2" parent="KF4 collision map" index="365"]
+visible = false
+
+[node name="030map - B3" parent="KF4 collision map" index="366"]
+visible = false
+
+[node name="030map - B4" parent="KF4 collision map" index="367"]
+visible = false
+
+[node name="030map - B5" parent="KF4 collision map" index="368"]
+visible = false
+
+[node name="030map - B6" parent="KF4 collision map" index="369"]
+visible = false
+
+[node name="030map - B7" parent="KF4 collision map" index="370"]
+visible = false
+
+[node name="030map - B8" parent="KF4 collision map" index="371"]
+visible = false
+
+[node name="030map - B9" parent="KF4 collision map" index="372"]
+visible = false
+
+[node name="030map - B10" parent="KF4 collision map" index="373"]
+visible = false
+
+[node name="030map - B11" parent="KF4 collision map" index="374"]
+visible = false
+
+[node name="030map - B12" parent="KF4 collision map" index="375"]
+visible = false
+
+[node name="030map - B13" parent="KF4 collision map" index="376"]
+visible = false
+
+[node name="030map - B14" parent="KF4 collision map" index="377"]
+visible = false
+
+[node name="030map - B15" parent="KF4 collision map" index="378"]
+visible = false
+
+[node name="030map - B16" parent="KF4 collision map" index="379"]
+visible = false
+
+[node name="030map - B17" parent="KF4 collision map" index="380"]
+visible = false
+
+[node name="030map - B18" parent="KF4 collision map" index="381"]
+visible = false
+
+[node name="030map - B19" parent="KF4 collision map" index="382"]
+visible = false
+
+[node name="030map - B20" parent="KF4 collision map" index="383"]
+visible = false
+
+[node name="030map - B21" parent="KF4 collision map" index="384"]
+visible = false
+
+[node name="030map - B22" parent="KF4 collision map" index="385"]
+visible = false
+
+[node name="030map - B23" parent="KF4 collision map" index="386"]
+visible = false
+
+[node name="030map - B24" parent="KF4 collision map" index="387"]
+visible = false
+
+[node name="030map - B25" parent="KF4 collision map" index="388"]
+visible = false
+
+[node name="030map - B26" parent="KF4 collision map" index="389"]
+visible = false
+
+[node name="030map - B27" parent="KF4 collision map" index="390"]
+visible = false
+
+[node name="030map - B28" parent="KF4 collision map" index="391"]
+visible = false
+
+[node name="030map - B29" parent="KF4 collision map" index="392"]
+visible = false
+
+[node name="041map - B0" parent="KF4 collision map" index="393"]
+visible = false
+
+[node name="041map - B1" parent="KF4 collision map" index="394"]
+visible = false
+
+[node name="041map - B2" parent="KF4 collision map" index="395"]
+visible = false
+
+[node name="041map - B3001" parent="KF4 collision map" index="396"]
+visible = false
+
+[node name="041map - B3" parent="KF4 collision map" index="397"]
+visible = false
+
+[node name="041map - B4" parent="KF4 collision map" index="398"]
+visible = false
+
+[node name="041map - B5" parent="KF4 collision map" index="399"]
+visible = false
+
+[node name="041map - B6" parent="KF4 collision map" index="400"]
+visible = false
+
+[node name="041map - B7" parent="KF4 collision map" index="401"]
+visible = false
+
+[node name="042map - B0" parent="KF4 collision map" index="402"]
+visible = false
+
+[node name="042map - B1" parent="KF4 collision map" index="403"]
+visible = false
+
+[node name="042map - B2" parent="KF4 collision map" index="404"]
+visible = false
+
+[node name="042map - B3" parent="KF4 collision map" index="405"]
+visible = false
+
+[node name="042map - B4" parent="KF4 collision map" index="406"]
+visible = false
+
+[node name="042map - B5" parent="KF4 collision map" index="407"]
+visible = false
+
+[node name="042map - B6" parent="KF4 collision map" index="408"]
+visible = false
+
+[node name="042map - B7" parent="KF4 collision map" index="409"]
+visible = false
+
+[node name="042map - B8" parent="KF4 collision map" index="410"]
+visible = false
+
+[node name="042map - B9" parent="KF4 collision map" index="411"]
+visible = false
+
+[node name="042map - B10" parent="KF4 collision map" index="412"]
+visible = false
+
+[node name="095map - B0" parent="KF4 collision map" index="413"]
+visible = false
+
+[node name="095map - B1" parent="KF4 collision map" index="414"]
+visible = false
+
+[node name="095map - B2" parent="KF4 collision map" index="415"]
+visible = false
+
+[node name="095map - B3" parent="KF4 collision map" index="416"]
+visible = false
+
+[node name="095map - B4" parent="KF4 collision map" index="417"]
+visible = false
+
+[node name="095map - B5001" parent="KF4 collision map" index="418"]
+visible = false
+
+[node name="095map - B5002" parent="KF4 collision map" index="419"]
+visible = false
+
+[node name="095map - B5" parent="KF4 collision map" index="420"]
+visible = false
+
+[node name="095map - B6" parent="KF4 collision map" index="421"]
+visible = false
+
+[node name="095map - B7" parent="KF4 collision map" index="422"]
+visible = false
+
+[node name="095map - B8" parent="KF4 collision map" index="423"]
+visible = false
+
+[node name="095map - B9001" parent="KF4 collision map" index="424"]
+visible = false
+
+[node name="095map - B10" parent="KF4 collision map" index="425"]
+visible = false
+
+[node name="095map - B11" parent="KF4 collision map" index="426"]
+visible = false
+
+[node name="095map - B12" parent="KF4 collision map" index="427"]
+visible = false
+
+[node name="095map - B13" parent="KF4 collision map" index="428"]
+visible = false
+
+[node name="095map - B14001" parent="KF4 collision map" index="429"]
+visible = false
+
+[node name="095map - B14002" parent="KF4 collision map" index="430"]
+visible = false
+
+[node name="095map - B14003" parent="KF4 collision map" index="431"]
+visible = false
+
+[node name="095map - B9" parent="KF4 collision map" index="432"]
+visible = false
+
+[node name="095map - B14" parent="KF4 collision map" index="433"]
+visible = false
+
+[node name="095map - B15" parent="KF4 collision map" index="434"]
+visible = false
+
+[node name="095map - B16" parent="KF4 collision map" index="435"]
+visible = false
+
+[node name="095map - B17" parent="KF4 collision map" index="436"]
+visible = false
+
+[node name="095map - B18" parent="KF4 collision map" index="437"]
+visible = false
+
+[node name="095map - B19" parent="KF4 collision map" index="438"]
+visible = false
+
+[node name="095map - B20" parent="KF4 collision map" index="439"]
+visible = false
+
+[node name="095map - B21" parent="KF4 collision map" index="440"]
+visible = false
+
+[node name="095map - B22" parent="KF4 collision map" index="441"]
+visible = false
+
+[node name="095map - B23" parent="KF4 collision map" index="442"]
+visible = false
+
+[node name="095map - B24" parent="KF4 collision map" index="443"]
+visible = false
+
+[node name="095map - B25" parent="KF4 collision map" index="444"]
+visible = false
+
+[node name="095map - B26" parent="KF4 collision map" index="445"]
+visible = false
+
+[node name="095map - B27" parent="KF4 collision map" index="446"]
+visible = false
+
+[node name="096map - B0" parent="KF4 collision map" index="447"]
+visible = false
+
+[node name="096map - B1001" parent="KF4 collision map" index="448"]
+visible = false
+
+[node name="096map - B1002" parent="KF4 collision map" index="449"]
+visible = false
+
+[node name="096map - B2" parent="KF4 collision map" index="450"]
+visible = false
+
+[node name="096map - B3" parent="KF4 collision map" index="451"]
+visible = false
+
+[node name="096map - B4" parent="KF4 collision map" index="452"]
+visible = false
+
+[node name="096map - B5" parent="KF4 collision map" index="453"]
+visible = false
+
+[node name="096map - B6" parent="KF4 collision map" index="454"]
+visible = false
+
+[node name="096map - B7" parent="KF4 collision map" index="455"]
+visible = false
+
+[node name="096map - B8" parent="KF4 collision map" index="456"]
+visible = false
+
+[node name="096map - B9" parent="KF4 collision map" index="457"]
+visible = false
+
+[node name="096map - B10" parent="KF4 collision map" index="458"]
+visible = false
+
+[node name="096map - B1" parent="KF4 collision map" index="459"]
+visible = false
+
+[node name="096map - B11" parent="KF4 collision map" index="460"]
+visible = false
+
+[node name="096map - B12" parent="KF4 collision map" index="461"]
+visible = false
+
+[node name="096map - B13" parent="KF4 collision map" index="462"]
+visible = false
+
+[node name="096map - B14" parent="KF4 collision map" index="463"]
+visible = false
+
+[node name="096map - B15" parent="KF4 collision map" index="464"]
+visible = false
+
+[node name="097map - B0" parent="KF4 collision map" index="465"]
+visible = false
+
+[node name="097map - B1001" parent="KF4 collision map" index="466"]
+visible = false
+
+[node name="097map - B1" parent="KF4 collision map" index="467"]
+visible = false
+
+[node name="097map - B2" parent="KF4 collision map" index="468"]
+visible = false
+
+[node name="097map - B3" parent="KF4 collision map" index="469"]
+visible = false
+
+[node name="097map - B4" parent="KF4 collision map" index="470"]
+visible = false
+
+[node name="097map - B5" parent="KF4 collision map" index="471"]
+visible = false
+
+[node name="098map - B0" parent="KF4 collision map" index="472"]
+visible = false
+
+[node name="098map - B1" parent="KF4 collision map" index="473"]
+visible = false
+
+[node name="098map - B2" parent="KF4 collision map" index="474"]
+visible = false
+
+[node name="098map - B3" parent="KF4 collision map" index="475"]
+visible = false
+
+[node name="098map - B4" parent="KF4 collision map" index="476"]
+visible = false
+
+[node name="098map - B5" parent="KF4 collision map" index="477"]
+visible = false
+
+[node name="098map - B6" parent="KF4 collision map" index="478"]
+visible = false
+
+[node name="098map - B7" parent="KF4 collision map" index="479"]
+visible = false
+
+[node name="098map - B8" parent="KF4 collision map" index="480"]
+visible = false
+
+[node name="098map - B9" parent="KF4 collision map" index="481"]
+visible = false
+
+[node name="098map - B10" parent="KF4 collision map" index="482"]
+visible = false
+
+[node name="098map - B11" parent="KF4 collision map" index="483"]
+visible = false
+
+[node name="098map - B12" parent="KF4 collision map" index="484"]
+visible = false
+
+[node name="098map - B13" parent="KF4 collision map" index="485"]
+visible = false
+
+[node name="098map - B14" parent="KF4 collision map" index="486"]
+visible = false
+
+[node name="098map - B15" parent="KF4 collision map" index="487"]
+visible = false
+
+[node name="098map - B16" parent="KF4 collision map" index="488"]
+visible = false
+
+[node name="098map - B17" parent="KF4 collision map" index="489"]
+visible = false
+
+[node name="098map - B18" parent="KF4 collision map" index="490"]
+visible = false
+
+[node name="098map - B19" parent="KF4 collision map" index="491"]
+visible = false
+
+[node name="098map - B20" parent="KF4 collision map" index="492"]
+visible = false
+
+[node name="098map - B21" parent="KF4 collision map" index="493"]
+visible = false
+
+[node name="098map - B22" parent="KF4 collision map" index="494"]
+visible = false
+
+[node name="098map - B23" parent="KF4 collision map" index="495"]
+visible = false
+
+[node name="098map - B24" parent="KF4 collision map" index="496"]
+visible = false
+
+[node name="098map - B25" parent="KF4 collision map" index="497"]
+visible = false
+
+[node name="098map - B26" parent="KF4 collision map" index="498"]
+visible = false
+
+[node name="098map - B27" parent="KF4 collision map" index="499"]
+visible = false
+
+[node name="098map - B28" parent="KF4 collision map" index="500"]
+visible = false
+
+[node name="098map - B29" parent="KF4 collision map" index="501"]
+visible = false
+
+[node name="098map - B30" parent="KF4 collision map" index="502"]
+visible = false
+
+[node name="098map - B31" parent="KF4 collision map" index="503"]
+visible = false
+
+[node name="098map - B32001" parent="KF4 collision map" index="504"]
+visible = false
+
+[node name="098map - B32002" parent="KF4 collision map" index="505"]
+visible = false
+
+[node name="098map - B32" parent="KF4 collision map" index="506"]
+visible = false
+
+[node name="099map - B0" parent="KF4 collision map" index="507"]
+visible = false
+
+[node name="099map - B1" parent="KF4 collision map" index="508"]
+visible = false
+
+[node name="099map - B2" parent="KF4 collision map" index="509"]
+visible = false
+
+[node name="099map - B3" parent="KF4 collision map" index="510"]
+visible = false
+
+[node name="099map - B4" parent="KF4 collision map" index="511"]
+visible = false
+
+[node name="099map - B6" parent="KF4 collision map" index="512"]
+visible = false
+
+[node name="099map - B7" parent="KF4 collision map" index="513"]
+visible = false
+
+[node name="099map - B8" parent="KF4 collision map" index="514"]
+visible = false
+
+[node name="099map - B9" parent="KF4 collision map" index="515"]
+visible = false
+
+[node name="099map - B10" parent="KF4 collision map" index="516"]
+visible = false
+
+[node name="099map - B11" parent="KF4 collision map" index="517"]
+visible = false
+
+[node name="099map - B12" parent="KF4 collision map" index="518"]
+visible = false
+
+[node name="099map - B13" parent="KF4 collision map" index="519"]
+visible = false
+
+[node name="099map - B14" parent="KF4 collision map" index="520"]
+visible = false
+
+[node name="099map - B15" parent="KF4 collision map" index="521"]
+visible = false
+
+[node name="099map - B16" parent="KF4 collision map" index="522"]
+visible = false
+
+[node name="099map - B17" parent="KF4 collision map" index="523"]
+visible = false
+
+[node name="099map - B18" parent="KF4 collision map" index="524"]
+visible = false
+
+[node name="099map - B19" parent="KF4 collision map" index="525"]
+visible = false
+
+[node name="099map - B20" parent="KF4 collision map" index="526"]
+visible = false
+
+[node name="099map - B21" parent="KF4 collision map" index="527"]
+visible = false
+
+[node name="099map - B22" parent="KF4 collision map" index="528"]
+visible = false
+
+[node name="099map - B23001" parent="KF4 collision map" index="529"]
+visible = false
+
+[node name="099map - B23" parent="KF4 collision map" index="530"]
+visible = false
+
+[node name="099map - B24" parent="KF4 collision map" index="531"]
+visible = false
+
+[node name="099map - B25" parent="KF4 collision map" index="532"]
+visible = false
+
+[node name="099map - B26" parent="KF4 collision map" index="533"]
+visible = false
+
+[node name="099map - B27" parent="KF4 collision map" index="534"]
+visible = false
+
+[node name="099map - B28" parent="KF4 collision map" index="535"]
+visible = false
+
+[node name="099map - B29" parent="KF4 collision map" index="536"]
+visible = false
+
+[node name="099map - B30" parent="KF4 collision map" index="537"]
+visible = false
+
+[node name="099map - B31" parent="KF4 collision map" index="538"]
+visible = false
+
+[node name="099map - B32" parent="KF4 collision map" index="539"]
+visible = false
+
+[node name="099map - B33" parent="KF4 collision map" index="540"]
+visible = false
+
+[node name="099map - B34" parent="KF4 collision map" index="541"]
+visible = false
+
+[node name="015map - B0" parent="KF4 collision map" index="542"]
+visible = false
+
+[node name="015map - B1" parent="KF4 collision map" index="543"]
+visible = false
+
+[node name="015map - B2" parent="KF4 collision map" index="544"]
+visible = false
+
+[node name="015map - B3" parent="KF4 collision map" index="545"]
+visible = false
+
+[node name="015map - B4" parent="KF4 collision map" index="546"]
+visible = false
+
+[node name="015map - B5" parent="KF4 collision map" index="547"]
+visible = false
+
+[node name="015map - B6" parent="KF4 collision map" index="548"]
+visible = false
+
+[node name="015map - B7" parent="KF4 collision map" index="549"]
+visible = false
+
+[node name="015map - B8" parent="KF4 collision map" index="550"]
+visible = false
+
+[node name="015map - B9" parent="KF4 collision map" index="551"]
+visible = false
+
+[node name="015map - B10" parent="KF4 collision map" index="552"]
+visible = false
+
+[node name="015map - B11" parent="KF4 collision map" index="553"]
+visible = false
+
+[node name="015map - B12" parent="KF4 collision map" index="554"]
+visible = false
+
+[node name="015map - B13" parent="KF4 collision map" index="555"]
+visible = false
+
+[node name="015map - B14" parent="KF4 collision map" index="556"]
+visible = false
+
+[node name="015map - B15" parent="KF4 collision map" index="557"]
+visible = false
+
+[node name="015map - B16" parent="KF4 collision map" index="558"]
+visible = false
+
+[node name="015map - B17" parent="KF4 collision map" index="559"]
+visible = false
+
+[node name="015map - B18" parent="KF4 collision map" index="560"]
+visible = false
+
+[node name="015map - B19" parent="KF4 collision map" index="561"]
+visible = false
+
+[node name="015map - B20" parent="KF4 collision map" index="562"]
+visible = false
+
+[node name="100map - B0" parent="KF4 collision map" index="563"]
+visible = false
+
+[node name="100map - B1" parent="KF4 collision map" index="564"]
+visible = false
+
+[node name="100map - B2" parent="KF4 collision map" index="565"]
+visible = false
+
+[node name="100map - B3" parent="KF4 collision map" index="566"]
+visible = false
+
+[node name="100map - B4" parent="KF4 collision map" index="567"]
+visible = false
+
+[node name="100map - B5" parent="KF4 collision map" index="568"]
+visible = false
+
+[node name="100map - B6" parent="KF4 collision map" index="569"]
+visible = false
+
+[node name="100map - B7" parent="KF4 collision map" index="570"]
+visible = false
+
+[node name="100map - B8" parent="KF4 collision map" index="571"]
+visible = false
+
+[node name="100map - B9" parent="KF4 collision map" index="572"]
+visible = false
+
+[node name="100map - B10" parent="KF4 collision map" index="573"]
+visible = false
+
+[node name="100map - B11" parent="KF4 collision map" index="574"]
+visible = false
+
+[node name="100map - B12" parent="KF4 collision map" index="575"]
+visible = false
+
+[node name="100map - B13001" parent="KF4 collision map" index="576"]
+visible = false
+
+[node name="100map - B14001" parent="KF4 collision map" index="577"]
+visible = false
+
+[node name="100map - B13" parent="KF4 collision map" index="578"]
+visible = false
+
+[node name="100map - B14" parent="KF4 collision map" index="579"]
+visible = false
+
+[node name="100map - B15001" parent="KF4 collision map" index="580"]
+visible = false
+
+[node name="100map - B16001" parent="KF4 collision map" index="581"]
+visible = false
+
+[node name="100map - B15" parent="KF4 collision map" index="582"]
+visible = false
+
+[node name="100map - B16" parent="KF4 collision map" index="583"]
+visible = false
+
+[node name="100map - B17" parent="KF4 collision map" index="584"]
+visible = false
+
+[node name="100map - B18" parent="KF4 collision map" index="585"]
+visible = false
+
+[node name="100map - B19001" parent="KF4 collision map" index="586"]
+visible = false
+
+[node name="100map - B20" parent="KF4 collision map" index="587"]
+visible = false
+
+[node name="100map - B21" parent="KF4 collision map" index="588"]
+visible = false
+
+[node name="100map - B22001" parent="KF4 collision map" index="589"]
+visible = false
+
+[node name="100map - B23" parent="KF4 collision map" index="590"]
+visible = false
+
+[node name="100map - B24001" parent="KF4 collision map" index="591"]
+visible = false
+
+[node name="100map - B24002" parent="KF4 collision map" index="592"]
+visible = false
+
+[node name="100map - B24003" parent="KF4 collision map" index="593"]
+visible = false
+
+[node name="100map - B24" parent="KF4 collision map" index="594"]
+visible = false
+
+[node name="100map - B22002" parent="KF4 collision map" index="595"]
+visible = false
+
+[node name="100map - B22" parent="KF4 collision map" index="596"]
+visible = false
+
+[node name="100map - B19" parent="KF4 collision map" index="597"]
+visible = false
+
+[node name="100map - B25" parent="KF4 collision map" index="598"]
+visible = false
+
+[node name="100map - B26" parent="KF4 collision map" index="599"]
+visible = false
+
+[node name="100map - B27" parent="KF4 collision map" index="600"]
+visible = false
+
+[node name="100map - B28" parent="KF4 collision map" index="601"]
+visible = false
+
+[node name="100map - B29" parent="KF4 collision map" index="602"]
+visible = false
+
+[node name="100map - B30" parent="KF4 collision map" index="603"]
+visible = false
+
+[node name="100map - B31" parent="KF4 collision map" index="604"]
+visible = false
+
+[node name="100map - B32" parent="KF4 collision map" index="605"]
+visible = false
+
+[node name="100map - B33" parent="KF4 collision map" index="606"]
+visible = false
+
+[node name="100map - B34" parent="KF4 collision map" index="607"]
+visible = false
+
+[node name="101map - B0" parent="KF4 collision map" index="608"]
+visible = false
+
+[node name="101map - B1" parent="KF4 collision map" index="609"]
+visible = false
+
+[node name="101map - B2" parent="KF4 collision map" index="610"]
+visible = false
+
+[node name="101map - B3" parent="KF4 collision map" index="611"]
+visible = false
+
+[node name="101map - B4001" parent="KF4 collision map" index="612"]
+visible = false
+
+[node name="101map - B4002" parent="KF4 collision map" index="613"]
+visible = false
+
+[node name="101map - B4003" parent="KF4 collision map" index="614"]
+visible = false
+
+[node name="101map - B4" parent="KF4 collision map" index="615"]
+visible = false
+
+[node name="101map - B5" parent="KF4 collision map" index="616"]
+visible = false
+
+[node name="101map - B6" parent="KF4 collision map" index="617"]
+visible = false
+
+[node name="101map - B7" parent="KF4 collision map" index="618"]
+visible = false
+
+[node name="101map - B8" parent="KF4 collision map" index="619"]
+visible = false
+
+[node name="101map - B9" parent="KF4 collision map" index="620"]
+visible = false
+
+[node name="101map - B10" parent="KF4 collision map" index="621"]
+visible = false
+
+[node name="101map - B11" parent="KF4 collision map" index="622"]
+visible = false
+
+[node name="101map - B12" parent="KF4 collision map" index="623"]
+visible = false
+
+[node name="101map - B13" parent="KF4 collision map" index="624"]
+visible = false
+
+[node name="102map - B0" parent="KF4 collision map" index="625"]
+visible = false
+
+[node name="102map - B1001" parent="KF4 collision map" index="626"]
+visible = false
+
+[node name="102map - B2" parent="KF4 collision map" index="627"]
+visible = false
+
+[node name="102map - B1002" parent="KF4 collision map" index="628"]
+visible = false
+
+[node name="102map - B1" parent="KF4 collision map" index="629"]
+visible = false
+
+[node name="102map - B3" parent="KF4 collision map" index="630"]
+visible = false
+
+[node name="102map - B4" parent="KF4 collision map" index="631"]
+visible = false
+
+[node name="102map - B5" parent="KF4 collision map" index="632"]
+visible = false
+
+[node name="102map - B6" parent="KF4 collision map" index="633"]
+visible = false
+
+[node name="102map - B7" parent="KF4 collision map" index="634"]
+visible = false
+
+[node name="102map - B8" parent="KF4 collision map" index="635"]
+visible = false
+
+[node name="102map - B9" parent="KF4 collision map" index="636"]
+visible = false
+
+[node name="102map - B10" parent="KF4 collision map" index="637"]
+visible = false
+
+[node name="102map - B11" parent="KF4 collision map" index="638"]
+visible = false
+
+[node name="102map - B12" parent="KF4 collision map" index="639"]
+visible = false
+
+[node name="102map - B13" parent="KF4 collision map" index="640"]
+visible = false
+
+[node name="102map - B14" parent="KF4 collision map" index="641"]
+visible = false
+
+[node name="102map - B15" parent="KF4 collision map" index="642"]
+visible = false
+
+[node name="102map - B16" parent="KF4 collision map" index="643"]
+visible = false
+
+[node name="102map - B17" parent="KF4 collision map" index="644"]
+visible = false
+
+[node name="102map - B18" parent="KF4 collision map" index="645"]
+visible = false
+
+[node name="102map - B19" parent="KF4 collision map" index="646"]
+visible = false
+
+[node name="102map - B20" parent="KF4 collision map" index="647"]
+visible = false
+
+[node name="102map - B21" parent="KF4 collision map" index="648"]
+visible = false
+
+[node name="102map - B22" parent="KF4 collision map" index="649"]
+visible = false
+
+[node name="102map - B23" parent="KF4 collision map" index="650"]
+visible = false
+
+[node name="102map - B24" parent="KF4 collision map" index="651"]
+visible = false
+
+[node name="102map - B25" parent="KF4 collision map" index="652"]
+visible = false
+
+[node name="102map - B26" parent="KF4 collision map" index="653"]
+visible = false
+
+[node name="102map - B27" parent="KF4 collision map" index="654"]
+visible = false
+
+[node name="102map - B28001" parent="KF4 collision map" index="655"]
+visible = false
+
+[node name="102map - B28002" parent="KF4 collision map" index="656"]
+visible = false
+
+[node name="102map - B28" parent="KF4 collision map" index="657"]
+visible = false
+
+[node name="103map - B0" parent="KF4 collision map" index="658"]
+visible = false
+
+[node name="103map - B1" parent="KF4 collision map" index="659"]
+visible = false
+
+[node name="103map - B2" parent="KF4 collision map" index="660"]
+visible = false
+
+[node name="103map - B3" parent="KF4 collision map" index="661"]
+visible = false
+
+[node name="103map - B4" parent="KF4 collision map" index="662"]
+visible = false
+
+[node name="103map - B5" parent="KF4 collision map" index="663"]
+visible = false
+
+[node name="103map - B6001" parent="KF4 collision map" index="664"]
+visible = false
+
+[node name="103map - B6002" parent="KF4 collision map" index="665"]
+visible = false
+
+[node name="103map - B6" parent="KF4 collision map" index="666"]
+visible = false
+
+[node name="103map - B7" parent="KF4 collision map" index="667"]
+visible = false
+
+[node name="103map - B8" parent="KF4 collision map" index="668"]
+visible = false
+
+[node name="103map - B9" parent="KF4 collision map" index="669"]
+visible = false
+
+[node name="103map - B10" parent="KF4 collision map" index="670"]
+visible = false
+
+[node name="103map - B11" parent="KF4 collision map" index="671"]
+visible = false
+
+[node name="103map - B12" parent="KF4 collision map" index="672"]
+visible = false
+
+[node name="103map - B13" parent="KF4 collision map" index="673"]
+visible = false
+
+[node name="104map - B0" parent="KF4 collision map" index="674"]
+visible = false
+
+[node name="104map - B1" parent="KF4 collision map" index="675"]
+visible = false
+
+[node name="104map - B2" parent="KF4 collision map" index="676"]
+visible = false
+
+[node name="104map - B3001" parent="KF4 collision map" index="677"]
+visible = false
+
+[node name="104map - B4" parent="KF4 collision map" index="678"]
+visible = false
+
+[node name="104map - B5" parent="KF4 collision map" index="679"]
+visible = false
+
+[node name="104map - B3" parent="KF4 collision map" index="680"]
+visible = false
+
+[node name="104map - B6" parent="KF4 collision map" index="681"]
+visible = false
+
+[node name="104map - B7" parent="KF4 collision map" index="682"]
+visible = false
+
+[node name="104map - B8" parent="KF4 collision map" index="683"]
+visible = false
+
+[node name="104map - B9" parent="KF4 collision map" index="684"]
+visible = false
+
+[node name="104map - B10" parent="KF4 collision map" index="685"]
+visible = false
+
+[node name="104map - B11" parent="KF4 collision map" index="686"]
+visible = false
+
+[node name="104map - B12" parent="KF4 collision map" index="687"]
+visible = false
+
+[node name="104map - B13" parent="KF4 collision map" index="688"]
+visible = false
+
+[node name="104map - B14" parent="KF4 collision map" index="689"]
+visible = false
+
+[node name="104map - B15" parent="KF4 collision map" index="690"]
+visible = false
+
+[node name="105map - B0001" parent="KF4 collision map" index="691"]
+visible = false
+
+[node name="105map - B0" parent="KF4 collision map" index="692"]
+visible = false
+
+[node name="105map - B1" parent="KF4 collision map" index="693"]
+visible = false
+
+[node name="105map - B2" parent="KF4 collision map" index="694"]
+visible = false
+
+[node name="105map - B3" parent="KF4 collision map" index="695"]
+visible = false
+
+[node name="105map - B4" parent="KF4 collision map" index="696"]
+visible = false
+
+[node name="105map - B5" parent="KF4 collision map" index="697"]
+visible = false
+
+[node name="105map - B6" parent="KF4 collision map" index="698"]
+visible = false
+
+[node name="105map - B7" parent="KF4 collision map" index="699"]
+visible = false
+
+[node name="105map - B8" parent="KF4 collision map" index="700"]
+visible = false
+
+[node name="105map - B9" parent="KF4 collision map" index="701"]
+visible = false
+
+[node name="105map - B10" parent="KF4 collision map" index="702"]
+visible = false
+
+[node name="105map - B11" parent="KF4 collision map" index="703"]
+visible = false
+
+[node name="105map - B12" parent="KF4 collision map" index="704"]
+visible = false
+
+[node name="105map - B13" parent="KF4 collision map" index="705"]
+visible = false
+
+[node name="105map - B14" parent="KF4 collision map" index="706"]
+visible = false
+
+[node name="105map - B15" parent="KF4 collision map" index="707"]
+visible = false
+
+[node name="105map - B16" parent="KF4 collision map" index="708"]
+visible = false
+
+[node name="105map - B17" parent="KF4 collision map" index="709"]
+visible = false
+
+[node name="105map - B18" parent="KF4 collision map" index="710"]
+visible = false
+
+[node name="105map - B19" parent="KF4 collision map" index="711"]
+visible = false
+
+[node name="105map - B20" parent="KF4 collision map" index="712"]
+visible = false
+
+[node name="105map - B21" parent="KF4 collision map" index="713"]
+visible = false
+
+[node name="105map - B22" parent="KF4 collision map" index="714"]
+visible = false
+
+[node name="105map - B23" parent="KF4 collision map" index="715"]
+visible = false
+
+[node name="105map - B24" parent="KF4 collision map" index="716"]
+visible = false
+
+[node name="105map - B25" parent="KF4 collision map" index="717"]
+visible = false
+
+[node name="105map - B26" parent="KF4 collision map" index="718"]
+visible = false
+
+[node name="105map - B27" parent="KF4 collision map" index="719"]
+visible = false
+
+[node name="105map - B28" parent="KF4 collision map" index="720"]
+visible = false
+
+[node name="105map - B29" parent="KF4 collision map" index="721"]
+visible = false
+
+[node name="105map - B30001" parent="KF4 collision map" index="722"]
+visible = false
+
+[node name="105map - B30" parent="KF4 collision map" index="723"]
+visible = false
+
+[node name="105map - B31001" parent="KF4 collision map" index="724"]
+visible = false
+
+[node name="105map - B31" parent="KF4 collision map" index="725"]
+visible = false
+
+[node name="105map - B32" parent="KF4 collision map" index="726"]
+visible = false
+
+[node name="106map - B0" parent="KF4 collision map" index="727"]
+visible = false
+
+[node name="106map - B1" parent="KF4 collision map" index="728"]
+visible = false
+
+[node name="107map - B0" parent="KF4 collision map" index="729"]
+visible = false
+
+[node name="107map - B1" parent="KF4 collision map" index="730"]
+visible = false
+
+[node name="107map - B2" parent="KF4 collision map" index="731"]
+visible = false
+
+[node name="107map - B3" parent="KF4 collision map" index="732"]
+visible = false
+
+[node name="107map - B4" parent="KF4 collision map" index="733"]
+visible = false
+
+[node name="107map - B5" parent="KF4 collision map" index="734"]
+visible = false
+
+[node name="107map - B6" parent="KF4 collision map" index="735"]
+visible = false
+
+[node name="107map - B7001" parent="KF4 collision map" index="736"]
+visible = false
+
+[node name="107map - B8001" parent="KF4 collision map" index="737"]
+visible = false
+
+[node name="107map - B7" parent="KF4 collision map" index="738"]
+visible = false
+
+[node name="107map - B8" parent="KF4 collision map" index="739"]
+visible = false
+
+[node name="107map - B9001" parent="KF4 collision map" index="740"]
+visible = false
+
+[node name="107map - B10001" parent="KF4 collision map" index="741"]
+visible = false
+
+[node name="107map - B9" parent="KF4 collision map" index="742"]
+visible = false
+
+[node name="107map - B10" parent="KF4 collision map" index="743"]
+visible = false
+
+[node name="107map - B11" parent="KF4 collision map" index="744"]
+visible = false
+
+[node name="107map - B12" parent="KF4 collision map" index="745"]
+visible = false
+
+[node name="107map - B13" parent="KF4 collision map" index="746"]
+visible = false
+
+[node name="107map - B14" parent="KF4 collision map" index="747"]
+visible = false
+
+[node name="107map - B15" parent="KF4 collision map" index="748"]
+visible = false
+
+[node name="107map - B16" parent="KF4 collision map" index="749"]
+visible = false
+
+[node name="107map - B17" parent="KF4 collision map" index="750"]
+visible = false
+
+[node name="107map - B18" parent="KF4 collision map" index="751"]
+visible = false
+
+[node name="107map - B19" parent="KF4 collision map" index="752"]
+visible = false
+
+[node name="107map - B20001" parent="KF4 collision map" index="753"]
+visible = false
+
+[node name="107map - B20002" parent="KF4 collision map" index="754"]
+visible = false
+
+[node name="107map - B20" parent="KF4 collision map" index="755"]
+visible = false
+
+[node name="107map - B21" parent="KF4 collision map" index="756"]
+visible = false
+
+[node name="108map - B0" parent="KF4 collision map" index="757"]
+visible = false
+
+[node name="108map - B1" parent="KF4 collision map" index="758"]
+visible = false
+
+[node name="108map - B2" parent="KF4 collision map" index="759"]
+visible = false
+
+[node name="108map - B3" parent="KF4 collision map" index="760"]
+visible = false
+
+[node name="108map - B4" parent="KF4 collision map" index="761"]
+visible = false
+
+[node name="108map - B5" parent="KF4 collision map" index="762"]
+visible = false
+
+[node name="108map - B6" parent="KF4 collision map" index="763"]
+visible = false
+
+[node name="108map - B7" parent="KF4 collision map" index="764"]
+visible = false
+
+[node name="108map - B8" parent="KF4 collision map" index="765"]
+visible = false
+
+[node name="108map - B9" parent="KF4 collision map" index="766"]
+visible = false
+
+[node name="108map - B10" parent="KF4 collision map" index="767"]
+visible = false
+
+[node name="108map - B11" parent="KF4 collision map" index="768"]
+visible = false
+
+[node name="108map - B12" parent="KF4 collision map" index="769"]
+visible = false
+
+[node name="108map - B13" parent="KF4 collision map" index="770"]
+visible = false
+
+[node name="108map - B14" parent="KF4 collision map" index="771"]
+visible = false
+
+[node name="108map - B15" parent="KF4 collision map" index="772"]
+visible = false
+
+[node name="108map - B16" parent="KF4 collision map" index="773"]
+visible = false
+
+[node name="108map - B17001" parent="KF4 collision map" index="774"]
+visible = false
+
+[node name="108map - B18" parent="KF4 collision map" index="775"]
+visible = false
+
+[node name="108map - B19" parent="KF4 collision map" index="776"]
+visible = false
+
+[node name="108map - B17" parent="KF4 collision map" index="777"]
+visible = false
+
+[node name="109map - B0" parent="KF4 collision map" index="778"]
+visible = false
+
+[node name="109map - B1" parent="KF4 collision map" index="779"]
+visible = false
+
+[node name="109map - B2" parent="KF4 collision map" index="780"]
+visible = false
+
+[node name="109map - B3" parent="KF4 collision map" index="781"]
+visible = false
+
+[node name="109map - B4" parent="KF4 collision map" index="782"]
+visible = false
+
+[node name="109map - B5" parent="KF4 collision map" index="783"]
+visible = false
+
+[node name="109map - B6" parent="KF4 collision map" index="784"]
+visible = false
+
+[node name="109map - B7" parent="KF4 collision map" index="785"]
+visible = false
+
+[node name="109map - B8" parent="KF4 collision map" index="786"]
+visible = false
+
+[node name="109map - B9" parent="KF4 collision map" index="787"]
+visible = false
+
+[node name="109map - B10" parent="KF4 collision map" index="788"]
+visible = false
+
+[node name="109map - B11" parent="KF4 collision map" index="789"]
+visible = false
+
+[node name="109map - B12" parent="KF4 collision map" index="790"]
+visible = false
+
+[node name="109map - B13" parent="KF4 collision map" index="791"]
+visible = false
+
+[node name="109map - B14" parent="KF4 collision map" index="792"]
+visible = false
+
+[node name="109map - B15" parent="KF4 collision map" index="793"]
+visible = false
+
+[node name="109map - B16" parent="KF4 collision map" index="794"]
+visible = false
+
+[node name="109map - B17" parent="KF4 collision map" index="795"]
+visible = false
+
+[node name="109map - B18" parent="KF4 collision map" index="796"]
+visible = false
+
+[node name="109map - B19" parent="KF4 collision map" index="797"]
+visible = false
+
+[node name="109map - B20" parent="KF4 collision map" index="798"]
+visible = false
+
+[node name="109map - B21" parent="KF4 collision map" index="799"]
+visible = false
+
+[node name="109map - B22" parent="KF4 collision map" index="800"]
+visible = false
+
+[node name="109map - B23" parent="KF4 collision map" index="801"]
+visible = false
+
+[node name="111map - B0" parent="KF4 collision map" index="802"]
+visible = false
+
+[node name="111map - B1" parent="KF4 collision map" index="803"]
+visible = false
+
+[node name="111map - B2" parent="KF4 collision map" index="804"]
+visible = false
+
+[node name="111map - B3" parent="KF4 collision map" index="805"]
+visible = false
+
+[node name="111map - B4" parent="KF4 collision map" index="806"]
+visible = false
+
+[node name="111map - B5" parent="KF4 collision map" index="807"]
+visible = false
+
+[node name="111map - B6" parent="KF4 collision map" index="808"]
+visible = false
+
+[node name="111map - B7" parent="KF4 collision map" index="809"]
+visible = false
+
+[node name="111map - B8" parent="KF4 collision map" index="810"]
+visible = false
+
+[node name="111map - B9" parent="KF4 collision map" index="811"]
+visible = false
+
+[node name="111map - B10001" parent="KF4 collision map" index="812"]
+visible = false
+
+[node name="111map - B10002" parent="KF4 collision map" index="813"]
+visible = false
+
+[node name="111map - B10003" parent="KF4 collision map" index="814"]
+visible = false
+
+[node name="111map - B10004" parent="KF4 collision map" index="815"]
+visible = false
+
+[node name="111map - B10005" parent="KF4 collision map" index="816"]
+visible = false
+
+[node name="111map - B10" parent="KF4 collision map" index="817"]
+visible = false
+
+[node name="111map - B11" parent="KF4 collision map" index="818"]
+visible = false
+
+[node name="111map - B12" parent="KF4 collision map" index="819"]
+visible = false
+
+[node name="111map - B13" parent="KF4 collision map" index="820"]
+visible = false
+
+[node name="111map - B14" parent="KF4 collision map" index="821"]
+visible = false
+
+[node name="111map - B15001" parent="KF4 collision map" index="822"]
+visible = false
+
+[node name="111map - B15" parent="KF4 collision map" index="823"]
+visible = false
+
+[node name="112map - B0" parent="KF4 collision map" index="824"]
+visible = false
+
+[node name="112map - B1" parent="KF4 collision map" index="825"]
+visible = false
+
+[node name="112map - B2" parent="KF4 collision map" index="826"]
+visible = false
+
+[node name="112map - B3" parent="KF4 collision map" index="827"]
+visible = false
+
+[node name="112map - B4" parent="KF4 collision map" index="828"]
+visible = false
+
+[node name="112map - B5" parent="KF4 collision map" index="829"]
+visible = false
+
+[node name="112map - B6" parent="KF4 collision map" index="830"]
+visible = false
+
+[node name="112map - B7" parent="KF4 collision map" index="831"]
+visible = false
+
+[node name="112map - B8" parent="KF4 collision map" index="832"]
+visible = false
+
+[node name="112map - B9" parent="KF4 collision map" index="833"]
+visible = false
+
+[node name="112map - B10" parent="KF4 collision map" index="834"]
+visible = false
+
+[node name="112map - B11" parent="KF4 collision map" index="835"]
+visible = false
+
+[node name="112map - B12" parent="KF4 collision map" index="836"]
+visible = false
+
+[node name="112map - B13" parent="KF4 collision map" index="837"]
+visible = false
+
+[node name="112map - B14" parent="KF4 collision map" index="838"]
+visible = false
+
+[node name="112map - B15" parent="KF4 collision map" index="839"]
+visible = false
+
+[node name="112map - B16" parent="KF4 collision map" index="840"]
+visible = false
+
+[node name="112map - B17" parent="KF4 collision map" index="841"]
+visible = false
+
+[node name="112map - B18" parent="KF4 collision map" index="842"]
+visible = false
+
+[node name="112map - B19" parent="KF4 collision map" index="843"]
+visible = false
+
+[node name="112map - B20" parent="KF4 collision map" index="844"]
+visible = false
+
+[node name="112map - B21" parent="KF4 collision map" index="845"]
+visible = false
+
+[node name="112map - B22" parent="KF4 collision map" index="846"]
+visible = false
+
+[node name="112map - B23" parent="KF4 collision map" index="847"]
+visible = false
+
+[node name="112map - B24" parent="KF4 collision map" index="848"]
+visible = false
+
+[node name="112map - B25" parent="KF4 collision map" index="849"]
+visible = false
+
+[node name="112map - B26" parent="KF4 collision map" index="850"]
+visible = false
+
+[node name="112map - B27" parent="KF4 collision map" index="851"]
+visible = false
+
+[node name="112map - B28" parent="KF4 collision map" index="852"]
+visible = false
+
+[node name="112map - B29" parent="KF4 collision map" index="853"]
+visible = false
+
+[node name="112map - B30" parent="KF4 collision map" index="854"]
+visible = false
+
+[node name="112map - B31" parent="KF4 collision map" index="855"]
+visible = false
+
+[node name="112map - B32" parent="KF4 collision map" index="856"]
+visible = false
+
+[node name="112map - B33" parent="KF4 collision map" index="857"]
+visible = false
+
+[node name="112map - B34" parent="KF4 collision map" index="858"]
+visible = false
+
+[node name="112map - B35" parent="KF4 collision map" index="859"]
+visible = false
+
+[node name="113map - B0" parent="KF4 collision map" index="860"]
+visible = false
+
+[node name="113map - B1" parent="KF4 collision map" index="861"]
+visible = false
+
+[node name="113map - B2" parent="KF4 collision map" index="862"]
+visible = false
+
+[node name="113map - B3" parent="KF4 collision map" index="863"]
+visible = false
+
+[node name="113map - B4" parent="KF4 collision map" index="864"]
+visible = false
+
+[node name="113map - B5" parent="KF4 collision map" index="865"]
+visible = false
+
+[node name="113map - B6" parent="KF4 collision map" index="866"]
+visible = false
+
+[node name="113map - B7" parent="KF4 collision map" index="867"]
+visible = false
+
+[node name="113map - B8" parent="KF4 collision map" index="868"]
+visible = false
+
+[node name="113map - B9" parent="KF4 collision map" index="869"]
+visible = false
+
+[node name="113map - B10" parent="KF4 collision map" index="870"]
+visible = false
+
+[node name="113map - B11" parent="KF4 collision map" index="871"]
+visible = false
+
+[node name="113map - B12" parent="KF4 collision map" index="872"]
+visible = false
+
+[node name="113map - B13" parent="KF4 collision map" index="873"]
+visible = false
+
+[node name="113map - B14" parent="KF4 collision map" index="874"]
+visible = false
+
+[node name="113map - B15" parent="KF4 collision map" index="875"]
+visible = false
+
+[node name="113map - B16" parent="KF4 collision map" index="876"]
+visible = false
+
+[node name="113map - B17" parent="KF4 collision map" index="877"]
+visible = false
+
+[node name="113map - B18" parent="KF4 collision map" index="878"]
+visible = false
+
+[node name="113map - B19" parent="KF4 collision map" index="879"]
+visible = false
+
+[node name="113map - B20" parent="KF4 collision map" index="880"]
+visible = false
+
+[node name="113map - B21" parent="KF4 collision map" index="881"]
+visible = false
+
+[node name="113map - B22" parent="KF4 collision map" index="882"]
+visible = false
+
+[node name="113map - B23" parent="KF4 collision map" index="883"]
+visible = false
+
+[node name="114map - B0" parent="KF4 collision map" index="884"]
+visible = false
+
+[node name="114map - B1" parent="KF4 collision map" index="885"]
+visible = false
+
+[node name="114map - B2" parent="KF4 collision map" index="886"]
+visible = false
+
+[node name="114map - B3" parent="KF4 collision map" index="887"]
+visible = false
+
+[node name="114map - B4" parent="KF4 collision map" index="888"]
+visible = false
+
+[node name="114map - B5" parent="KF4 collision map" index="889"]
+visible = false
+
+[node name="114map - B6" parent="KF4 collision map" index="890"]
+visible = false
+
+[node name="114map - B7" parent="KF4 collision map" index="891"]
+visible = false
+
+[node name="114map - B8" parent="KF4 collision map" index="892"]
+visible = false
+
+[node name="114map - B9" parent="KF4 collision map" index="893"]
+visible = false
+
+[node name="114map - B10" parent="KF4 collision map" index="894"]
+visible = false
+
+[node name="114map - B11" parent="KF4 collision map" index="895"]
+visible = false
+
+[node name="114map - B12" parent="KF4 collision map" index="896"]
+visible = false
+
+[node name="114map - B13" parent="KF4 collision map" index="897"]
+visible = false
+
+[node name="114map - B14" parent="KF4 collision map" index="898"]
+visible = false
+
+[node name="114map - B15" parent="KF4 collision map" index="899"]
+visible = false
+
+[node name="114map - B16" parent="KF4 collision map" index="900"]
+visible = false
+
+[node name="114map - B17" parent="KF4 collision map" index="901"]
+visible = false
+
+[node name="114map - B18" parent="KF4 collision map" index="902"]
+visible = false
+
+[node name="114map - B19" parent="KF4 collision map" index="903"]
+visible = false
+
+[node name="114map - B20" parent="KF4 collision map" index="904"]
+visible = false
+
+[node name="114map - B21" parent="KF4 collision map" index="905"]
+visible = false
+
+[node name="114map - B22" parent="KF4 collision map" index="906"]
+visible = false
+
+[node name="114map - B23" parent="KF4 collision map" index="907"]
+visible = false
+
+[node name="114map - B24" parent="KF4 collision map" index="908"]
+visible = false
+
+[node name="114map - B25" parent="KF4 collision map" index="909"]
+visible = false
+
+[node name="114map - B26" parent="KF4 collision map" index="910"]
+visible = false
+
+[node name="114map - B27" parent="KF4 collision map" index="911"]
+visible = false
+
+[node name="114map - B28" parent="KF4 collision map" index="912"]
+visible = false
+
+[node name="114map - B29" parent="KF4 collision map" index="913"]
+visible = false
+
+[node name="114map - B30" parent="KF4 collision map" index="914"]
+visible = false
+
+[node name="114map - B31" parent="KF4 collision map" index="915"]
+visible = false
+
+[node name="114map - B32" parent="KF4 collision map" index="916"]
+visible = false
+
+[node name="114map - B33" parent="KF4 collision map" index="917"]
+visible = false
+
+[node name="114map - B34" parent="KF4 collision map" index="918"]
+visible = false
+
+[node name="114map - B35" parent="KF4 collision map" index="919"]
+visible = false
+
+[node name="114map - B36" parent="KF4 collision map" index="920"]
+visible = false
+
+[node name="114map - B37" parent="KF4 collision map" index="921"]
+visible = false
+
+[node name="115map - B0" parent="KF4 collision map" index="922"]
+visible = false
+
+[node name="115map - B1" parent="KF4 collision map" index="923"]
+visible = false
+
+[node name="115map - B2" parent="KF4 collision map" index="924"]
+visible = false
+
+[node name="115map - B3" parent="KF4 collision map" index="925"]
+visible = false
+
+[node name="115map - B4" parent="KF4 collision map" index="926"]
+visible = false
+
+[node name="115map - B5" parent="KF4 collision map" index="927"]
+visible = false
+
+[node name="115map - B6" parent="KF4 collision map" index="928"]
+visible = false
+
+[node name="115map - B7" parent="KF4 collision map" index="929"]
+visible = false
+
+[node name="115map - B8" parent="KF4 collision map" index="930"]
+visible = false
+
+[node name="115map - B9" parent="KF4 collision map" index="931"]
+visible = false
+
+[node name="115map - B10" parent="KF4 collision map" index="932"]
+visible = false
+
+[node name="115map - B11" parent="KF4 collision map" index="933"]
+visible = false
+
+[node name="115map - B12" parent="KF4 collision map" index="934"]
+visible = false
+
+[node name="115map - B13" parent="KF4 collision map" index="935"]
+visible = false
+
+[node name="115map - B14" parent="KF4 collision map" index="936"]
+visible = false
+
+[node name="115map - B15" parent="KF4 collision map" index="937"]
+visible = false
+
+[node name="115map - B16" parent="KF4 collision map" index="938"]
+visible = false
+
+[node name="115map - B17" parent="KF4 collision map" index="939"]
+visible = false
+
+[node name="115map - B18" parent="KF4 collision map" index="940"]
+visible = false
+
+[node name="115map - B19" parent="KF4 collision map" index="941"]
+visible = false
+
+[node name="115map - B20" parent="KF4 collision map" index="942"]
+visible = false
+
+[node name="115map - B21" parent="KF4 collision map" index="943"]
+visible = false
+
+[node name="115map - B22" parent="KF4 collision map" index="944"]
+visible = false
+
+[node name="115map - B23" parent="KF4 collision map" index="945"]
+visible = false
+
+[node name="115map - B24001" parent="KF4 collision map" index="946"]
+visible = false
+
+[node name="115map - B24" parent="KF4 collision map" index="947"]
+visible = false
+
+[node name="115map - B25" parent="KF4 collision map" index="948"]
+visible = false
+
+[node name="115map - B26" parent="KF4 collision map" index="949"]
+visible = false
+
+[node name="115map - B27" parent="KF4 collision map" index="950"]
+visible = false
+
+[node name="115map - B28" parent="KF4 collision map" index="951"]
+visible = false
+
+[node name="115map - B29" parent="KF4 collision map" index="952"]
+visible = false
+
+[node name="115map - B30" parent="KF4 collision map" index="953"]
+visible = false
+
+[node name="115map - B31" parent="KF4 collision map" index="954"]
+visible = false
+
+[node name="115map - B32" parent="KF4 collision map" index="955"]
+visible = false
+
+[node name="115map - B33" parent="KF4 collision map" index="956"]
+visible = false
+
+[node name="115map - B34" parent="KF4 collision map" index="957"]
+visible = false
+
+[node name="115map - B35" parent="KF4 collision map" index="958"]
+visible = false
+
+[node name="115map - B36" parent="KF4 collision map" index="959"]
+visible = false
+
+[node name="115map - B37" parent="KF4 collision map" index="960"]
+visible = false
+
+[node name="116map - B0" parent="KF4 collision map" index="961"]
+visible = false
+
+[node name="116map - B1" parent="KF4 collision map" index="962"]
+visible = false
+
+[node name="116map - B2" parent="KF4 collision map" index="963"]
+visible = false
+
+[node name="116map - B3" parent="KF4 collision map" index="964"]
+visible = false
+
+[node name="116map - B4" parent="KF4 collision map" index="965"]
+visible = false
+
+[node name="116map - B5" parent="KF4 collision map" index="966"]
+visible = false
+
+[node name="116map - B6" parent="KF4 collision map" index="967"]
+visible = false
+
+[node name="116map - B7" parent="KF4 collision map" index="968"]
+visible = false
+
+[node name="116map - B8" parent="KF4 collision map" index="969"]
+visible = false
+
+[node name="116map - B9001" parent="KF4 collision map" index="970"]
+visible = false
+
+[node name="116map - B10001" parent="KF4 collision map" index="971"]
+visible = false
+
+[node name="116map - B9002" parent="KF4 collision map" index="972"]
+visible = false
+
+[node name="116map - B9003" parent="KF4 collision map" index="973"]
+visible = false
+
+[node name="116map - B9" parent="KF4 collision map" index="974"]
+visible = false
+
+[node name="116map - B10" parent="KF4 collision map" index="975"]
+visible = false
+
+[node name="116map - B11001" parent="KF4 collision map" index="976"]
+visible = false
+
+[node name="116map - B11" parent="KF4 collision map" index="977"]
+visible = false
+
+[node name="116map - B12001" parent="KF4 collision map" index="978"]
+visible = false
+
+[node name="116map - B12002" parent="KF4 collision map" index="979"]
+visible = false
+
+[node name="116map - B12003" parent="KF4 collision map" index="980"]
+visible = false
+
+[node name="116map - B12004" parent="KF4 collision map" index="981"]
+visible = false
+
+[node name="116map - B12005" parent="KF4 collision map" index="982"]
+visible = false
+
+[node name="116map - B12006" parent="KF4 collision map" index="983"]
+visible = false
+
+[node name="116map - B12007" parent="KF4 collision map" index="984"]
+visible = false
+
+[node name="116map - B12008" parent="KF4 collision map" index="985"]
+visible = false
+
+[node name="116map - B12" parent="KF4 collision map" index="986"]
+visible = false
+
+[node name="116map - B13" parent="KF4 collision map" index="987"]
+visible = false
+
+[node name="116map - B14" parent="KF4 collision map" index="988"]
+visible = false
+
+[node name="116map - B15" parent="KF4 collision map" index="989"]
+visible = false
+
+[node name="116map - B16" parent="KF4 collision map" index="990"]
+visible = false
+
+[node name="033map - B0" parent="KF4 collision map" index="991"]
+visible = false
+
+[node name="033map - B1" parent="KF4 collision map" index="992"]
+visible = false
+
+[node name="033map - B2" parent="KF4 collision map" index="993"]
+visible = false
+
+[node name="033map - B3" parent="KF4 collision map" index="994"]
+visible = false
+
+[node name="033map - B4" parent="KF4 collision map" index="995"]
+visible = false
+
+[node name="033map - B5" parent="KF4 collision map" index="996"]
+visible = false
+
+[node name="033map - B6" parent="KF4 collision map" index="997"]
+visible = false
+
+[node name="033map - B7" parent="KF4 collision map" index="998"]
+visible = false
+
+[node name="033map - B8" parent="KF4 collision map" index="999"]
+visible = false
+
+[node name="033map - B9" parent="KF4 collision map" index="1000"]
+visible = false
+
+[node name="033map - B10" parent="KF4 collision map" index="1001"]
+visible = false
+
+[node name="033map - B11" parent="KF4 collision map" index="1002"]
+visible = false
+
+[node name="033map - B12" parent="KF4 collision map" index="1003"]
+visible = false
+
+[node name="033map - B13" parent="KF4 collision map" index="1004"]
+visible = false
+
+[node name="034map - B0" parent="KF4 collision map" index="1005"]
+visible = false
+
+[node name="034map - B1" parent="KF4 collision map" index="1006"]
+visible = false
+
+[node name="034map - B2" parent="KF4 collision map" index="1007"]
+visible = false
+
+[node name="034map - B3" parent="KF4 collision map" index="1008"]
+visible = false
+
+[node name="034map - B4" parent="KF4 collision map" index="1009"]
+visible = false
+
+[node name="034map - B5" parent="KF4 collision map" index="1010"]
+visible = false
+
+[node name="034map - B6" parent="KF4 collision map" index="1011"]
+visible = false
+
+[node name="034map - B7" parent="KF4 collision map" index="1012"]
+visible = false
+
+[node name="034map - B8" parent="KF4 collision map" index="1013"]
+visible = false
+
+[node name="034map - B9" parent="KF4 collision map" index="1014"]
+visible = false
+
+[node name="034map - B10" parent="KF4 collision map" index="1015"]
+visible = false
+
+[node name="034map - B11" parent="KF4 collision map" index="1016"]
+visible = false
+
+[node name="034map - B12" parent="KF4 collision map" index="1017"]
+visible = false
+
+[node name="034map - B13" parent="KF4 collision map" index="1018"]
+visible = false
+
+[node name="034map - B14" parent="KF4 collision map" index="1019"]
+visible = false
+
+[node name="034map - B15" parent="KF4 collision map" index="1020"]
+visible = false
+
+[node name="035map - B0001" parent="KF4 collision map" index="1021"]
+visible = false
+
+[node name="035map - B0002" parent="KF4 collision map" index="1022"]
+visible = false
+
+[node name="035map - B0" parent="KF4 collision map" index="1023"]
+visible = false
+
+[node name="035map - B1001" parent="KF4 collision map" index="1024"]
+visible = false
+
+[node name="035map - B1002" parent="KF4 collision map" index="1025"]
+visible = false
+
+[node name="035map - B1003" parent="KF4 collision map" index="1026"]
+visible = false
+
+[node name="035map - B1" parent="KF4 collision map" index="1027"]
+visible = false
+
+[node name="035map - B2001" parent="KF4 collision map" index="1028"]
+visible = false
+
+[node name="035map - B2002" parent="KF4 collision map" index="1029"]
+visible = false
+
+[node name="035map - B2003" parent="KF4 collision map" index="1030"]
+visible = false
+
+[node name="035map - B2004" parent="KF4 collision map" index="1031"]
+visible = false
+
+[node name="035map - B3001" parent="KF4 collision map" index="1032"]
+visible = false
+
+[node name="035map - B4" parent="KF4 collision map" index="1033"]
+visible = false
+
+[node name="035map - B5" parent="KF4 collision map" index="1034"]
+visible = false
+
+[node name="035map - B6" parent="KF4 collision map" index="1035"]
+visible = false
+
+[node name="035map - B7" parent="KF4 collision map" index="1036"]
+visible = false
+
+[node name="035map - B8" parent="KF4 collision map" index="1037"]
+visible = false
+
+[node name="035map - B9" parent="KF4 collision map" index="1038"]
+visible = false
+
+[node name="035map - B10" parent="KF4 collision map" index="1039"]
+visible = false
+
+[node name="035map - B11" parent="KF4 collision map" index="1040"]
+visible = false
+
+[node name="035map - B12" parent="KF4 collision map" index="1041"]
+visible = false
+
+[node name="035map - B13" parent="KF4 collision map" index="1042"]
+visible = false
+
+[node name="035map - B14" parent="KF4 collision map" index="1043"]
+visible = false
+
+[node name="035map - B15" parent="KF4 collision map" index="1044"]
+visible = false
+
+[node name="035map - B16" parent="KF4 collision map" index="1045"]
+visible = false
+
+[node name="035map - B17" parent="KF4 collision map" index="1046"]
+visible = false
+
+[node name="035map - B18" parent="KF4 collision map" index="1047"]
+visible = false
+
+[node name="035map - B19" parent="KF4 collision map" index="1048"]
+visible = false
+
+[node name="035map - B20" parent="KF4 collision map" index="1049"]
+visible = false
+
+[node name="035map - B21" parent="KF4 collision map" index="1050"]
+visible = false
+
+[node name="035map - B22" parent="KF4 collision map" index="1051"]
+visible = false
+
+[node name="035map - B23" parent="KF4 collision map" index="1052"]
+visible = false
+
+[node name="035map - B24" parent="KF4 collision map" index="1053"]
+visible = false
+
+[node name="035map - B25" parent="KF4 collision map" index="1054"]
+visible = false
+
+[node name="035map - B26" parent="KF4 collision map" index="1055"]
+visible = false
+
+[node name="035map - B27" parent="KF4 collision map" index="1056"]
+visible = false
+
+[node name="035map - B28" parent="KF4 collision map" index="1057"]
+visible = false
+
+[node name="035map - B29" parent="KF4 collision map" index="1058"]
+visible = false
+
+[node name="035map - B3" parent="KF4 collision map" index="1059"]
+visible = false
+
+[node name="035map - B2005" parent="KF4 collision map" index="1060"]
+visible = false
+
+[node name="035map - B2006" parent="KF4 collision map" index="1061"]
+visible = false
+
+[node name="035map - B2007" parent="KF4 collision map" index="1062"]
+visible = false
+
+[node name="035map - B2" parent="KF4 collision map" index="1063"]
+visible = false
+
+[node name="037map - B0" parent="KF4 collision map" index="1064"]
+visible = false
+
+[node name="037map - B1" parent="KF4 collision map" index="1065"]
+visible = false
+
+[node name="037map - B2" parent="KF4 collision map" index="1066"]
+visible = false
+
+[node name="037map - B3" parent="KF4 collision map" index="1067"]
+visible = false
+
+[node name="037map - B4" parent="KF4 collision map" index="1068"]
+visible = false
+
+[node name="037map - B5" parent="KF4 collision map" index="1069"]
+visible = false
+
+[node name="037map - B6" parent="KF4 collision map" index="1070"]
+visible = false
+
+[node name="037map - B7" parent="KF4 collision map" index="1071"]
+visible = false
+
+[node name="037map - B8" parent="KF4 collision map" index="1072"]
+visible = false
+
+[node name="037map - B9" parent="KF4 collision map" index="1073"]
+visible = false
+
+[node name="037map - B10" parent="KF4 collision map" index="1074"]
+visible = false
+
+[node name="037map - B11" parent="KF4 collision map" index="1075"]
+visible = false
+
+[node name="037map - B12" parent="KF4 collision map" index="1076"]
+visible = false
+
+[node name="037map - B13" parent="KF4 collision map" index="1077"]
+visible = false
+
+[node name="037map - B14" parent="KF4 collision map" index="1078"]
+visible = false
+
+[node name="037map - B15" parent="KF4 collision map" index="1079"]
+visible = false
+
+[node name="037map - B16" parent="KF4 collision map" index="1080"]
+visible = false
+
+[node name="037map - B17" parent="KF4 collision map" index="1081"]
+visible = false
+
+[node name="037map - B18" parent="KF4 collision map" index="1082"]
+visible = false
+
+[node name="037map - B19" parent="KF4 collision map" index="1083"]
+visible = false
+
+[node name="037map - B20" parent="KF4 collision map" index="1084"]
+visible = false
+
+[node name="037map - B21" parent="KF4 collision map" index="1085"]
+visible = false
+
+[node name="037map - B22" parent="KF4 collision map" index="1086"]
+visible = false
+
+[node name="037map - B23" parent="KF4 collision map" index="1087"]
+visible = false
+
+[node name="037map - B24" parent="KF4 collision map" index="1088"]
+visible = false
+
+[node name="037map - B25" parent="KF4 collision map" index="1089"]
+visible = false
+
+[node name="037map - B26" parent="KF4 collision map" index="1090"]
+visible = false
+
+[node name="037map - B27" parent="KF4 collision map" index="1091"]
+visible = false
+
+[node name="037map - B28" parent="KF4 collision map" index="1092"]
+visible = false
+
+[node name="037map - B29" parent="KF4 collision map" index="1093"]
+visible = false
+
+[node name="037map - B30" parent="KF4 collision map" index="1094"]
+visible = false
+
+[node name="037map - B31" parent="KF4 collision map" index="1095"]
+visible = false
+
+[node name="037map - B32" parent="KF4 collision map" index="1096"]
+visible = false
+
+[node name="037map - B33" parent="KF4 collision map" index="1097"]
+visible = false
+
+[node name="037map - B34" parent="KF4 collision map" index="1098"]
+visible = false
+
+[node name="037map - B35" parent="KF4 collision map" index="1099"]
+visible = false
+
+[node name="037map - B36" parent="KF4 collision map" index="1100"]
+visible = false
+
+[node name="037map - B37" parent="KF4 collision map" index="1101"]
+visible = false
+
+[node name="037map - B38" parent="KF4 collision map" index="1102"]
+visible = false
+
+[node name="037map - B39" parent="KF4 collision map" index="1103"]
+visible = false
+
+[node name="037map - B40" parent="KF4 collision map" index="1104"]
+visible = false
+
+[node name="036map - B0" parent="KF4 collision map" index="1105"]
+visible = false
+
+[node name="036map - B1" parent="KF4 collision map" index="1106"]
+visible = false
+
+[node name="036map - B2001" parent="KF4 collision map" index="1107"]
+visible = false
+
+[node name="036map - B2002" parent="KF4 collision map" index="1108"]
+visible = false
+
+[node name="036map - B2" parent="KF4 collision map" index="1109"]
+visible = false
+
+[node name="036map - B3001" parent="KF4 collision map" index="1110"]
+visible = false
+
+[node name="036map - B3" parent="KF4 collision map" index="1111"]
+visible = false
+
+[node name="036map - B4001" parent="KF4 collision map" index="1112"]
+visible = false
+
+[node name="036map - B4002" parent="KF4 collision map" index="1113"]
+visible = false
+
+[node name="036map - B4" parent="KF4 collision map" index="1114"]
+visible = false
+
+[node name="036map - B5" parent="KF4 collision map" index="1115"]
+visible = false
+
+[node name="036map - B6" parent="KF4 collision map" index="1116"]
+visible = false
+
+[node name="036map - B7001" parent="KF4 collision map" index="1117"]
+visible = false
+
+[node name="036map - B7002" parent="KF4 collision map" index="1118"]
+visible = false
+
+[node name="036map - B8" parent="KF4 collision map" index="1119"]
+visible = false
+
+[node name="036map - B7003" parent="KF4 collision map" index="1120"]
+visible = false
+
+[node name="036map - B7004" parent="KF4 collision map" index="1121"]
+visible = false
+
+[node name="036map - B7" parent="KF4 collision map" index="1122"]
+visible = false
+
+[node name="036map - B9" parent="KF4 collision map" index="1123"]
+visible = false
+
+[node name="036map - B10" parent="KF4 collision map" index="1124"]
+visible = false
+
+[node name="036map - B11" parent="KF4 collision map" index="1125"]
+visible = false
+
+[node name="036map - B12" parent="KF4 collision map" index="1126"]
+visible = false
+
+[node name="036map - B13001" parent="KF4 collision map" index="1127"]
+visible = false
+
+[node name="036map - B13" parent="KF4 collision map" index="1128"]
+visible = false
+
+[node name="036map - B14001" parent="KF4 collision map" index="1129"]
+visible = false
+
+[node name="036map - B14002" parent="KF4 collision map" index="1130"]
+visible = false
+
+[node name="036map - B14" parent="KF4 collision map" index="1131"]
+visible = false
+
+[node name="036map - B15" parent="KF4 collision map" index="1132"]
+visible = false
+
+[node name="036map - B16" parent="KF4 collision map" index="1133"]
+visible = false
+
+[node name="036map - B17" parent="KF4 collision map" index="1134"]
+visible = false
+
+[node name="036map - B18" parent="KF4 collision map" index="1135"]
+visible = false
+
+[node name="036map - B19" parent="KF4 collision map" index="1136"]
+visible = false
+
+[node name="036map - B20" parent="KF4 collision map" index="1137"]
+visible = false
+
+[node name="036map - B21" parent="KF4 collision map" index="1138"]
+visible = false
+
+[node name="036map - B22" parent="KF4 collision map" index="1139"]
+visible = false
+
+[node name="036map - B23001" parent="KF4 collision map" index="1140"]
+visible = false
+
+[node name="036map - B23" parent="KF4 collision map" index="1141"]
+visible = false
+
+[node name="036map - B24" parent="KF4 collision map" index="1142"]
+visible = false
+
+[node name="036map - B25" parent="KF4 collision map" index="1143"]
+visible = false
+
+[node name="036map - B26" parent="KF4 collision map" index="1144"]
+visible = false
+
+[node name="036map - B27" parent="KF4 collision map" index="1145"]
+visible = false
+
+[node name="036map - B28" parent="KF4 collision map" index="1146"]
+visible = false
+
+[node name="036map - B29" parent="KF4 collision map" index="1147"]
+visible = false
+
+[node name="038map - B0" parent="KF4 collision map" index="1148"]
+visible = false
+
+[node name="038map - B1" parent="KF4 collision map" index="1149"]
+visible = false
+
+[node name="038map - B2" parent="KF4 collision map" index="1150"]
+visible = false
+
+[node name="038map - B3001" parent="KF4 collision map" index="1151"]
+visible = false
+
+[node name="038map - B3002" parent="KF4 collision map" index="1152"]
+visible = false
+
+[node name="038map - B3003" parent="KF4 collision map" index="1153"]
+visible = false
+
+[node name="038map - B3004" parent="KF4 collision map" index="1154"]
+visible = false
+
+[node name="038map - B3005" parent="KF4 collision map" index="1155"]
+visible = false
+
+[node name="038map - B3" parent="KF4 collision map" index="1156"]
+visible = false
+
+[node name="038map - B4" parent="KF4 collision map" index="1157"]
+visible = false
+
+[node name="038map - B5" parent="KF4 collision map" index="1158"]
+visible = false
+
+[node name="038map - B6" parent="KF4 collision map" index="1159"]
+visible = false
+
+[node name="039map - B0" parent="KF4 collision map" index="1160"]
+visible = false
+
+[node name="039map - B1" parent="KF4 collision map" index="1161"]
+visible = false
+
+[node name="039map - B2" parent="KF4 collision map" index="1162"]
+visible = false
+
+[node name="039map - B3" parent="KF4 collision map" index="1163"]
+visible = false
+
+[node name="039map - B4" parent="KF4 collision map" index="1164"]
+visible = false
+
+[node name="039map - B5" parent="KF4 collision map" index="1165"]
+visible = false
+
+[node name="039map - B6" parent="KF4 collision map" index="1166"]
+visible = false
+
+[node name="039map - B7" parent="KF4 collision map" index="1167"]
+visible = false
+
+[node name="039map - B8" parent="KF4 collision map" index="1168"]
+visible = false
+
+[node name="039map - B9" parent="KF4 collision map" index="1169"]
+visible = false
+
+[node name="039map - B10" parent="KF4 collision map" index="1170"]
+visible = false
+
+[node name="039map - B11" parent="KF4 collision map" index="1171"]
+visible = false
+
+[node name="039map - B12" parent="KF4 collision map" index="1172"]
+visible = false
+
+[node name="039map - B13" parent="KF4 collision map" index="1173"]
+visible = false
+
+[node name="039map - B14" parent="KF4 collision map" index="1174"]
+visible = false
+
+[node name="040map - B0" parent="KF4 collision map" index="1175"]
+visible = false
+
+[node name="040map - B1" parent="KF4 collision map" index="1176"]
+visible = false
+
+[node name="040map - B2" parent="KF4 collision map" index="1177"]
+visible = false
+
+[node name="040map - B3" parent="KF4 collision map" index="1178"]
+visible = false
+
+[node name="040map - B4" parent="KF4 collision map" index="1179"]
+visible = false
+
+[node name="040map - B5" parent="KF4 collision map" index="1180"]
+visible = false
+
+[node name="040map - B6" parent="KF4 collision map" index="1181"]
+visible = false
+
+[node name="040map - B7" parent="KF4 collision map" index="1182"]
+visible = false
+
+[node name="040map - B8" parent="KF4 collision map" index="1183"]
+visible = false
+
+[node name="040map - B9" parent="KF4 collision map" index="1184"]
+visible = false
+
+[node name="040map - B10" parent="KF4 collision map" index="1185"]
+visible = false
+
+[node name="040map - B11" parent="KF4 collision map" index="1186"]
+visible = false
+
+[node name="040map - B12" parent="KF4 collision map" index="1187"]
+visible = false
+
+[node name="040map - B13" parent="KF4 collision map" index="1188"]
+visible = false
+
+[node name="032map - B0" parent="KF4 collision map" index="1189"]
+visible = false
+
+[node name="032map - B1" parent="KF4 collision map" index="1190"]
+visible = false
+
+[node name="032map - B2" parent="KF4 collision map" index="1191"]
+visible = false
+
+[node name="032map - B3" parent="KF4 collision map" index="1192"]
+visible = false
+
+[node name="032map - B4" parent="KF4 collision map" index="1193"]
+visible = false
+
+[node name="032map - B5" parent="KF4 collision map" index="1194"]
+visible = false
+
+[node name="032map - B6" parent="KF4 collision map" index="1195"]
+visible = false
+
+[node name="032map - B7" parent="KF4 collision map" index="1196"]
+visible = false
+
+[node name="032map - B8" parent="KF4 collision map" index="1197"]
+visible = false
+
+[node name="032map - B9" parent="KF4 collision map" index="1198"]
+visible = false
+
+[node name="032map - B10" parent="KF4 collision map" index="1199"]
+visible = false
+
+[node name="032map - B11" parent="KF4 collision map" index="1200"]
+visible = false
+
+[node name="032map - B12" parent="KF4 collision map" index="1201"]
+visible = false
+
+[node name="032map - B13" parent="KF4 collision map" index="1202"]
+visible = false
+
+[node name="032map - B14" parent="KF4 collision map" index="1203"]
+visible = false
+
+[node name="032map - B15" parent="KF4 collision map" index="1204"]
+visible = false
+
+[node name="032map - B16" parent="KF4 collision map" index="1205"]
+visible = false
+
+[node name="032map - B17" parent="KF4 collision map" index="1206"]
+visible = false
+
+[node name="032map - B18" parent="KF4 collision map" index="1207"]
+visible = false
+
+[node name="032map - B19" parent="KF4 collision map" index="1208"]
+visible = false
+
+[node name="032map - B20" parent="KF4 collision map" index="1209"]
+visible = false
+
+[node name="032map - B21" parent="KF4 collision map" index="1210"]
+visible = false
+
+[node name="032map - B22" parent="KF4 collision map" index="1211"]
+visible = false
+
+[node name="032map - B23" parent="KF4 collision map" index="1212"]
+visible = false
+
+[node name="032map - B24" parent="KF4 collision map" index="1213"]
+visible = false
+
+[node name="032map - B25" parent="KF4 collision map" index="1214"]
+visible = false
+
+[node name="032map - B26" parent="KF4 collision map" index="1215"]
+visible = false
+
+[node name="032map - B27" parent="KF4 collision map" index="1216"]
+visible = false
+
+[node name="032map - B28" parent="KF4 collision map" index="1217"]
+visible = false
+
+[node name="032map - B29" parent="KF4 collision map" index="1218"]
+visible = false
+
+[node name="044map - B0" parent="KF4 collision map" index="1219"]
+visible = false
+
+[node name="044map - B1" parent="KF4 collision map" index="1220"]
+visible = false
+
+[node name="044map - B2" parent="KF4 collision map" index="1221"]
+visible = false
+
+[node name="044map - B3" parent="KF4 collision map" index="1222"]
+visible = false
+
+[node name="044map - B4" parent="KF4 collision map" index="1223"]
+visible = false
+
+[node name="044map - B5" parent="KF4 collision map" index="1224"]
+visible = false
+
+[node name="044map - B6" parent="KF4 collision map" index="1225"]
+visible = false
+
+[node name="044map - B7" parent="KF4 collision map" index="1226"]
+visible = false
+
+[node name="044map - B8" parent="KF4 collision map" index="1227"]
+visible = false
+
+[node name="044map - B9" parent="KF4 collision map" index="1228"]
+visible = false
+
+[node name="044map - B10" parent="KF4 collision map" index="1229"]
+visible = false
+
+[node name="016map - B0" parent="KF4 collision map" index="1230"]
+visible = false
+
+[node name="016map - B1" parent="KF4 collision map" index="1231"]
+visible = false
+
+[node name="016map - B2" parent="KF4 collision map" index="1232"]
+visible = false
+
+[node name="016map - B3" parent="KF4 collision map" index="1233"]
+visible = false
+
+[node name="016map - B4" parent="KF4 collision map" index="1234"]
+visible = false
+
+[node name="016map - B5" parent="KF4 collision map" index="1235"]
+visible = false
+
+[node name="016map - B6" parent="KF4 collision map" index="1236"]
+visible = false
+
+[node name="016map - B7" parent="KF4 collision map" index="1237"]
+visible = false
+
+[node name="016map - B8" parent="KF4 collision map" index="1238"]
+visible = false
+
+[node name="016map - B9001" parent="KF4 collision map" index="1239"]
+visible = false
+
+[node name="016map - B10" parent="KF4 collision map" index="1240"]
+visible = false
+
+[node name="016map - B11" parent="KF4 collision map" index="1241"]
+visible = false
+
+[node name="016map - B12" parent="KF4 collision map" index="1242"]
+visible = false
+
+[node name="016map - B13" parent="KF4 collision map" index="1243"]
+visible = false
+
+[node name="016map - B9" parent="KF4 collision map" index="1244"]
+visible = false
+
+[node name="016map - B14" parent="KF4 collision map" index="1245"]
+visible = false
+
+[node name="016map - B15" parent="KF4 collision map" index="1246"]
+visible = false
+
+[node name="016map - B16" parent="KF4 collision map" index="1247"]
+visible = false
+
+[node name="016map - B17" parent="KF4 collision map" index="1248"]
+visible = false
+
+[node name="016map - B18" parent="KF4 collision map" index="1249"]
+visible = false
+
+[node name="016map - B19" parent="KF4 collision map" index="1250"]
+visible = false
+
+[node name="016map - B20" parent="KF4 collision map" index="1251"]
+visible = false
+
+[node name="017map - B0" parent="KF4 collision map" index="1252"]
+visible = false
+
+[node name="017map - B1" parent="KF4 collision map" index="1253"]
+visible = false
+
+[node name="017map - B2" parent="KF4 collision map" index="1254"]
+visible = false
+
+[node name="017map - B3" parent="KF4 collision map" index="1255"]
+visible = false
+
+[node name="017map - B4" parent="KF4 collision map" index="1256"]
+visible = false
+
+[node name="017map - B5" parent="KF4 collision map" index="1257"]
+visible = false
+
+[node name="017map - B6" parent="KF4 collision map" index="1258"]
+visible = false
+
+[node name="017map - B7" parent="KF4 collision map" index="1259"]
+visible = false
+
+[node name="017map - B8" parent="KF4 collision map" index="1260"]
+visible = false
+
+[node name="017map - B9" parent="KF4 collision map" index="1261"]
+visible = false
+
+[node name="017map - B10" parent="KF4 collision map" index="1262"]
+visible = false
+
+[node name="017map - B11" parent="KF4 collision map" index="1263"]
+visible = false
+
+[node name="017map - B12" parent="KF4 collision map" index="1264"]
+visible = false
+
+[node name="017map - B13" parent="KF4 collision map" index="1265"]
+visible = false
+
+[node name="017map - B14" parent="KF4 collision map" index="1266"]
+visible = false
+
+[node name="017map - B15001" parent="KF4 collision map" index="1267"]
+visible = false
+
+[node name="017map - B15" parent="KF4 collision map" index="1268"]
+visible = false
+
+[node name="017map - B16" parent="KF4 collision map" index="1269"]
+visible = false
+
+[node name="017map - B17" parent="KF4 collision map" index="1270"]
+visible = false
+
+[node name="017map - B18" parent="KF4 collision map" index="1271"]
+visible = false
+
+[node name="017map - B19001" parent="KF4 collision map" index="1272"]
+visible = false
+
+[node name="017map - B19" parent="KF4 collision map" index="1273"]
+visible = false
+
+[node name="017map - B20" parent="KF4 collision map" index="1274"]
+visible = false
+
+[node name="017map - B21001" parent="KF4 collision map" index="1275"]
+visible = false
+
+[node name="017map - B21002" parent="KF4 collision map" index="1276"]
+visible = false
+
+[node name="017map - B21003" parent="KF4 collision map" index="1277"]
+visible = false
+
+[node name="017map - B21004" parent="KF4 collision map" index="1278"]
+visible = false
+
+[node name="017map - B21005" parent="KF4 collision map" index="1279"]
+visible = false
+
+[node name="017map - B21006" parent="KF4 collision map" index="1280"]
+visible = false
+
+[node name="017map - B21007" parent="KF4 collision map" index="1281"]
+visible = false
+
+[node name="017map - B21008" parent="KF4 collision map" index="1282"]
+visible = false
+
+[node name="017map - B21009" parent="KF4 collision map" index="1283"]
+visible = false
+
+[node name="017map - B22" parent="KF4 collision map" index="1284"]
+visible = false
+
+[node name="017map - B23001" parent="KF4 collision map" index="1285"]
+visible = false
+
+[node name="017map - B23002" parent="KF4 collision map" index="1286"]
+visible = false
+
+[node name="017map - B21010" parent="KF4 collision map" index="1287"]
+visible = false
+
+[node name="017map - B21011" parent="KF4 collision map" index="1288"]
+visible = false
+
+[node name="017map - B21012" parent="KF4 collision map" index="1289"]
+visible = false
+
+[node name="017map - B21" parent="KF4 collision map" index="1290"]
+visible = false
+
+[node name="017map - B23" parent="KF4 collision map" index="1291"]
+visible = false
+
+[node name="017map - B24" parent="KF4 collision map" index="1292"]
+visible = false
+
+[node name="017map - B25" parent="KF4 collision map" index="1293"]
+visible = false
+
+[node name="017map - B26" parent="KF4 collision map" index="1294"]
+visible = false
+
+[node name="017map - B27" parent="KF4 collision map" index="1295"]
+visible = false
+
+[node name="017map - B28" parent="KF4 collision map" index="1296"]
+visible = false
+
+[node name="017map - B29001" parent="KF4 collision map" index="1297"]
+visible = false
+
+[node name="017map - B30" parent="KF4 collision map" index="1298"]
+visible = false
+
+[node name="017map - B31" parent="KF4 collision map" index="1299"]
+visible = false
+
+[node name="017map - B32" parent="KF4 collision map" index="1300"]
+visible = false
+
+[node name="017map - B33001" parent="KF4 collision map" index="1301"]
+visible = false
+
+[node name="017map - B35" parent="KF4 collision map" index="1302"]
+visible = false
+
+[node name="017map - B37001" parent="KF4 collision map" index="1303"]
+visible = false
+
+[node name="017map - B33002" parent="KF4 collision map" index="1304"]
+visible = false
+
+[node name="017map - B41001" parent="KF4 collision map" index="1305"]
+visible = false
+
+[node name="017map - B29002" parent="KF4 collision map" index="1306"]
+visible = false
+
+[node name="017map - B33003" parent="KF4 collision map" index="1307"]
+visible = false
+
+[node name="017map - B33004" parent="KF4 collision map" index="1308"]
+visible = false
+
+[node name="017map - B33005" parent="KF4 collision map" index="1309"]
+visible = false
+
+[node name="017map - B39001" parent="KF4 collision map" index="1310"]
+visible = false
+
+[node name="017map - B33006" parent="KF4 collision map" index="1311"]
+visible = false
+
+[node name="017map - B33" parent="KF4 collision map" index="1312"]
+visible = false
+
+[node name="017map - B39" parent="KF4 collision map" index="1313"]
+visible = false
+
+[node name="017map - B41" parent="KF4 collision map" index="1314"]
+visible = false
+
+[node name="017map - B29" parent="KF4 collision map" index="1315"]
+visible = false
+
+[node name="017map - B37" parent="KF4 collision map" index="1316"]
+visible = false
+
+[node name="017map - B43" parent="KF4 collision map" index="1317"]
+visible = false
+
+[node name="018map - B0" parent="KF4 collision map" index="1318"]
+visible = false
+
+[node name="018map - B1" parent="KF4 collision map" index="1319"]
+visible = false
+
+[node name="018map - B2" parent="KF4 collision map" index="1320"]
+visible = false
+
+[node name="018map - B3" parent="KF4 collision map" index="1321"]
+visible = false
+
+[node name="018map - B4" parent="KF4 collision map" index="1322"]
+visible = false
+
+[node name="018map - B5" parent="KF4 collision map" index="1323"]
+visible = false
+
+[node name="018map - B6" parent="KF4 collision map" index="1324"]
+visible = false
+
+[node name="018map - B7" parent="KF4 collision map" index="1325"]
+visible = false
+
+[node name="018map - B8" parent="KF4 collision map" index="1326"]
+visible = false
+
+[node name="018map - B9" parent="KF4 collision map" index="1327"]
+visible = false
+
+[node name="018map - B10" parent="KF4 collision map" index="1328"]
+visible = false
+
+[node name="018map - B11" parent="KF4 collision map" index="1329"]
+visible = false
+
+[node name="018map - B12" parent="KF4 collision map" index="1330"]
+visible = false
+
+[node name="018map - B13" parent="KF4 collision map" index="1331"]
+visible = false
+
+[node name="018map - B14" parent="KF4 collision map" index="1332"]
+visible = false
+
+[node name="018map - B15" parent="KF4 collision map" index="1333"]
+visible = false
+
+[node name="018map - B16001" parent="KF4 collision map" index="1334"]
+visible = false
+
+[node name="018map - B16" parent="KF4 collision map" index="1335"]
+visible = false
+
+[node name="018map - B17" parent="KF4 collision map" index="1336"]
+visible = false
+
+[node name="018map - B18" parent="KF4 collision map" index="1337"]
+visible = false
+
+[node name="018map - B19" parent="KF4 collision map" index="1338"]
+visible = false
+
+[node name="018map - B20001" parent="KF4 collision map" index="1339"]
+visible = false
+
+[node name="018map - B20" parent="KF4 collision map" index="1340"]
+visible = false
+
+[node name="018map - B21" parent="KF4 collision map" index="1341"]
+visible = false
+
+[node name="018map - B22001" parent="KF4 collision map" index="1342"]
+visible = false
+
+[node name="018map - B22002" parent="KF4 collision map" index="1343"]
+visible = false
+
+[node name="018map - B22003" parent="KF4 collision map" index="1344"]
+visible = false
+
+[node name="018map - B22004" parent="KF4 collision map" index="1345"]
+visible = false
+
+[node name="018map - B22005" parent="KF4 collision map" index="1346"]
+visible = false
+
+[node name="018map - B22006" parent="KF4 collision map" index="1347"]
+visible = false
+
+[node name="018map - B22007" parent="KF4 collision map" index="1348"]
+visible = false
+
+[node name="018map - B22008" parent="KF4 collision map" index="1349"]
+visible = false
+
+[node name="018map - B22009" parent="KF4 collision map" index="1350"]
+visible = false
+
+[node name="018map - B22010" parent="KF4 collision map" index="1351"]
+visible = false
+
+[node name="018map - B23" parent="KF4 collision map" index="1352"]
+visible = false
+
+[node name="018map - B24001" parent="KF4 collision map" index="1353"]
+visible = false
+
+[node name="018map - B24002" parent="KF4 collision map" index="1354"]
+visible = false
+
+[node name="018map - B22011" parent="KF4 collision map" index="1355"]
+visible = false
+
+[node name="018map - B22012" parent="KF4 collision map" index="1356"]
+visible = false
+
+[node name="018map - B22013" parent="KF4 collision map" index="1357"]
+visible = false
+
+[node name="018map - B22" parent="KF4 collision map" index="1358"]
+visible = false
+
+[node name="018map - B24" parent="KF4 collision map" index="1359"]
+visible = false
+
+[node name="018map - B25" parent="KF4 collision map" index="1360"]
+visible = false
+
+[node name="018map - B26" parent="KF4 collision map" index="1361"]
+visible = false
+
+[node name="018map - B27" parent="KF4 collision map" index="1362"]
+visible = false
+
+[node name="018map - B28" parent="KF4 collision map" index="1363"]
+visible = false
+
+[node name="018map - B29" parent="KF4 collision map" index="1364"]
+visible = false
+
+[node name="018map - B30" parent="KF4 collision map" index="1365"]
+visible = false
+
+[node name="018map - B31001" parent="KF4 collision map" index="1366"]
+visible = false
+
+[node name="018map - B31002" parent="KF4 collision map" index="1367"]
+visible = false
+
+[node name="018map - B31" parent="KF4 collision map" index="1368"]
+visible = false
+
+[node name="018map - B32" parent="KF4 collision map" index="1369"]
+visible = false
+
+[node name="018map - B33" parent="KF4 collision map" index="1370"]
+visible = false
+
+[node name="018map - B34" parent="KF4 collision map" index="1371"]
+visible = false
+
+[node name="018map - B35" parent="KF4 collision map" index="1372"]
+visible = false
+
+[node name="018map - B36" parent="KF4 collision map" index="1373"]
+visible = false
+
+[node name="018map - B37" parent="KF4 collision map" index="1374"]
+visible = false
+
+[node name="018map - B38" parent="KF4 collision map" index="1375"]
+visible = false
+
+[node name="018map - B39" parent="KF4 collision map" index="1376"]
+visible = false
+
+[node name="018map - B40" parent="KF4 collision map" index="1377"]
+visible = false
+
+[node name="018map - B41" parent="KF4 collision map" index="1378"]
+visible = false
+
+[node name="018map - B42" parent="KF4 collision map" index="1379"]
+visible = false
+
+[node name="018map - B43" parent="KF4 collision map" index="1380"]
+visible = false
+
+[node name="019map - B0" parent="KF4 collision map" index="1381"]
+visible = false
+
+[node name="019map - B1" parent="KF4 collision map" index="1382"]
+visible = false
+
+[node name="019map - B2" parent="KF4 collision map" index="1383"]
+visible = false
+
+[node name="019map - B3" parent="KF4 collision map" index="1384"]
+visible = false
+
+[node name="019map - B4" parent="KF4 collision map" index="1385"]
+visible = false
+
+[node name="019map - B5" parent="KF4 collision map" index="1386"]
+visible = false
+
+[node name="019map - B6" parent="KF4 collision map" index="1387"]
+visible = false
+
+[node name="019map - B7" parent="KF4 collision map" index="1388"]
+visible = false
+
+[node name="019map - B8" parent="KF4 collision map" index="1389"]
+visible = false
+
+[node name="019map - B9" parent="KF4 collision map" index="1390"]
+visible = false
+
+[node name="019map - B10" parent="KF4 collision map" index="1391"]
+visible = false
+
+[node name="019map - B11" parent="KF4 collision map" index="1392"]
+visible = false
+
+[node name="019map - B12" parent="KF4 collision map" index="1393"]
+visible = false
+
+[node name="019map - B13" parent="KF4 collision map" index="1394"]
+visible = false
+
+[node name="019map - B14" parent="KF4 collision map" index="1395"]
+visible = false
+
+[node name="019map - B15001" parent="KF4 collision map" index="1396"]
+visible = false
+
+[node name="019map - B15" parent="KF4 collision map" index="1397"]
+visible = false
+
+[node name="019map - B16" parent="KF4 collision map" index="1398"]
+visible = false
+
+[node name="019map - B17" parent="KF4 collision map" index="1399"]
+visible = false
+
+[node name="019map - B18" parent="KF4 collision map" index="1400"]
+visible = false
+
+[node name="019map - B19" parent="KF4 collision map" index="1401"]
+visible = false
+
+[node name="019map - B20001" parent="KF4 collision map" index="1402"]
+visible = false
+
+[node name="019map - B20" parent="KF4 collision map" index="1403"]
+visible = false
+
+[node name="019map - B21" parent="KF4 collision map" index="1404"]
+visible = false
+
+[node name="019map - B22001" parent="KF4 collision map" index="1405"]
+visible = false
+
+[node name="019map - B22002" parent="KF4 collision map" index="1406"]
+visible = false
+
+[node name="019map - B22003" parent="KF4 collision map" index="1407"]
+visible = false
+
+[node name="019map - B22004" parent="KF4 collision map" index="1408"]
+visible = false
+
+[node name="019map - B22005" parent="KF4 collision map" index="1409"]
+visible = false
+
+[node name="019map - B22006" parent="KF4 collision map" index="1410"]
+visible = false
+
+[node name="019map - B22007" parent="KF4 collision map" index="1411"]
+visible = false
+
+[node name="019map - B22008" parent="KF4 collision map" index="1412"]
+visible = false
+
+[node name="019map - B22009" parent="KF4 collision map" index="1413"]
+visible = false
+
+[node name="019map - B22010" parent="KF4 collision map" index="1414"]
+visible = false
+
+[node name="019map - B23" parent="KF4 collision map" index="1415"]
+visible = false
+
+[node name="019map - B24001" parent="KF4 collision map" index="1416"]
+visible = false
+
+[node name="019map - B24002" parent="KF4 collision map" index="1417"]
+visible = false
+
+[node name="019map - B22011" parent="KF4 collision map" index="1418"]
+visible = false
+
+[node name="019map - B22012" parent="KF4 collision map" index="1419"]
+visible = false
+
+[node name="019map - B22013" parent="KF4 collision map" index="1420"]
+visible = false
+
+[node name="019map - B22" parent="KF4 collision map" index="1421"]
+visible = false
+
+[node name="019map - B24" parent="KF4 collision map" index="1422"]
+visible = false
+
+[node name="019map - B25" parent="KF4 collision map" index="1423"]
+visible = false
+
+[node name="019map - B26" parent="KF4 collision map" index="1424"]
+visible = false
+
+[node name="019map - B27" parent="KF4 collision map" index="1425"]
+visible = false
+
+[node name="019map - B28" parent="KF4 collision map" index="1426"]
+visible = false
+
+[node name="019map - B29" parent="KF4 collision map" index="1427"]
+visible = false
+
+[node name="019map - B30" parent="KF4 collision map" index="1428"]
+visible = false
+
+[node name="019map - B31" parent="KF4 collision map" index="1429"]
+visible = false
+
+[node name="019map - B32" parent="KF4 collision map" index="1430"]
+visible = false
+
+[node name="019map - B33" parent="KF4 collision map" index="1431"]
+visible = false
+
+[node name="019map - B34" parent="KF4 collision map" index="1432"]
+visible = false
+
+[node name="019map - B35" parent="KF4 collision map" index="1433"]
+visible = false
+
+[node name="019map - B36" parent="KF4 collision map" index="1434"]
+visible = false
+
+[node name="019map - B37" parent="KF4 collision map" index="1435"]
+visible = false
+
+[node name="019map - B38" parent="KF4 collision map" index="1436"]
+visible = false
+
+[node name="019map - B39001" parent="KF4 collision map" index="1437"]
+visible = false
+
+[node name="019map - B39002" parent="KF4 collision map" index="1438"]
+visible = false
+
+[node name="019map - B39" parent="KF4 collision map" index="1439"]
+visible = false
+
+[node name="019map - B40" parent="KF4 collision map" index="1440"]
+visible = false
+
+[node name="019map - B41" parent="KF4 collision map" index="1441"]
+visible = false
+
+[node name="019map - B42" parent="KF4 collision map" index="1442"]
+visible = false
+
+[node name="020map - B0" parent="KF4 collision map" index="1443"]
+visible = false
+
+[node name="020map - B1" parent="KF4 collision map" index="1444"]
+visible = false
+
+[node name="020map - B2" parent="KF4 collision map" index="1445"]
+visible = false
+
+[node name="020map - B3" parent="KF4 collision map" index="1446"]
+visible = false
+
+[node name="020map - B4" parent="KF4 collision map" index="1447"]
+visible = false
+
+[node name="020map - B5" parent="KF4 collision map" index="1448"]
+visible = false
+
+[node name="020map - B6" parent="KF4 collision map" index="1449"]
+visible = false
+
+[node name="020map - B7" parent="KF4 collision map" index="1450"]
+visible = false
+
+[node name="020map - B8" parent="KF4 collision map" index="1451"]
+visible = false
+
+[node name="020map - B9" parent="KF4 collision map" index="1452"]
+visible = false
+
+[node name="020map - B10" parent="KF4 collision map" index="1453"]
+visible = false
+
+[node name="020map - B11" parent="KF4 collision map" index="1454"]
+visible = false
+
+[node name="020map - B12" parent="KF4 collision map" index="1455"]
+visible = false
+
+[node name="020map - B13001" parent="KF4 collision map" index="1456"]
+visible = false
+
+[node name="020map - B14" parent="KF4 collision map" index="1457"]
+visible = false
+
+[node name="020map - B15" parent="KF4 collision map" index="1458"]
+visible = false
+
+[node name="020map - B16" parent="KF4 collision map" index="1459"]
+visible = false
+
+[node name="020map - B17" parent="KF4 collision map" index="1460"]
+visible = false
+
+[node name="020map - B18" parent="KF4 collision map" index="1461"]
+visible = false
+
+[node name="020map - B19" parent="KF4 collision map" index="1462"]
+visible = false
+
+[node name="020map - B20001" parent="KF4 collision map" index="1463"]
+visible = false
+
+[node name="020map - B20002" parent="KF4 collision map" index="1464"]
+visible = false
+
+[node name="020map - B20003" parent="KF4 collision map" index="1465"]
+visible = false
+
+[node name="020map - B20004" parent="KF4 collision map" index="1466"]
+visible = false
+
+[node name="020map - B20" parent="KF4 collision map" index="1467"]
+visible = false
+
+[node name="020map - B13002" parent="KF4 collision map" index="1468"]
+visible = false
+
+[node name="020map - B13" parent="KF4 collision map" index="1469"]
+visible = false
+
+[node name="020map - B21" parent="KF4 collision map" index="1470"]
+visible = false
+
+[node name="020map - B22" parent="KF4 collision map" index="1471"]
+visible = false
+
+[node name="020map - B23" parent="KF4 collision map" index="1472"]
+visible = false
+
+[node name="020map - B24" parent="KF4 collision map" index="1473"]
+visible = false
+
+[node name="020map - B25" parent="KF4 collision map" index="1474"]
+visible = false
+
+[node name="021map - B0" parent="KF4 collision map" index="1475"]
+visible = false
+
+[node name="021map - B1" parent="KF4 collision map" index="1476"]
+visible = false
+
+[node name="021map - B2" parent="KF4 collision map" index="1477"]
+visible = false
+
+[node name="021map - B3" parent="KF4 collision map" index="1478"]
+visible = false
+
+[node name="021map - B4" parent="KF4 collision map" index="1479"]
+visible = false
+
+[node name="021map - B5" parent="KF4 collision map" index="1480"]
+visible = false
+
+[node name="021map - B6" parent="KF4 collision map" index="1481"]
+visible = false
+
+[node name="021map - B7" parent="KF4 collision map" index="1482"]
+visible = false
+
+[node name="021map - B8" parent="KF4 collision map" index="1483"]
+visible = false
+
+[node name="021map - B9" parent="KF4 collision map" index="1484"]
+visible = false
+
+[node name="021map - B10" parent="KF4 collision map" index="1485"]
+visible = false
+
+[node name="021map - B11" parent="KF4 collision map" index="1486"]
+visible = false
+
+[node name="021map - B12" parent="KF4 collision map" index="1487"]
+visible = false
+
+[node name="021map - B13" parent="KF4 collision map" index="1488"]
+visible = false
+
+[node name="021map - B14" parent="KF4 collision map" index="1489"]
+visible = false
+
+[node name="021map - B15" parent="KF4 collision map" index="1490"]
+visible = false
+
+[node name="021map - B16" parent="KF4 collision map" index="1491"]
+visible = false
+
+[node name="021map - B17" parent="KF4 collision map" index="1492"]
+visible = false
+
+[node name="021map - B18" parent="KF4 collision map" index="1493"]
+visible = false
+
+[node name="021map - B19" parent="KF4 collision map" index="1494"]
+visible = false
+
+[node name="021map - B20" parent="KF4 collision map" index="1495"]
+visible = false
+
+[node name="021map - B21" parent="KF4 collision map" index="1496"]
+visible = false
+
+[node name="021map - B22" parent="KF4 collision map" index="1497"]
+visible = false
+
+[node name="021map - B23" parent="KF4 collision map" index="1498"]
+visible = false
+
+[node name="021map - B24" parent="KF4 collision map" index="1499"]
+visible = false
+
+[node name="021map - B25" parent="KF4 collision map" index="1500"]
+visible = false
+
+[node name="021map - B26" parent="KF4 collision map" index="1501"]
+visible = false
+
+[node name="021map - B27" parent="KF4 collision map" index="1502"]
+visible = false
+
+[node name="021map - B28001" parent="KF4 collision map" index="1503"]
+visible = false
+
+[node name="021map - B29001" parent="KF4 collision map" index="1504"]
+visible = false
+
+[node name="021map - B29002" parent="KF4 collision map" index="1505"]
+visible = false
+
+[node name="021map - B29003" parent="KF4 collision map" index="1506"]
+visible = false
+
+[node name="021map - B29" parent="KF4 collision map" index="1507"]
+visible = false
+
+[node name="021map - B30" parent="KF4 collision map" index="1508"]
+visible = false
+
+[node name="021map - B31" parent="KF4 collision map" index="1509"]
+visible = false
+
+[node name="021map - B32" parent="KF4 collision map" index="1510"]
+visible = false
+
+[node name="021map - B33" parent="KF4 collision map" index="1511"]
+visible = false
+
+[node name="021map - B34" parent="KF4 collision map" index="1512"]
+visible = false
+
+[node name="021map - B35" parent="KF4 collision map" index="1513"]
+visible = false
+
+[node name="021map - B36" parent="KF4 collision map" index="1514"]
+visible = false
+
+[node name="021map - B37" parent="KF4 collision map" index="1515"]
+visible = false
+
+[node name="021map - B38" parent="KF4 collision map" index="1516"]
+visible = false
+
+[node name="021map - B39" parent="KF4 collision map" index="1517"]
+visible = false
+
+[node name="021map - B40" parent="KF4 collision map" index="1518"]
+visible = false
+
+[node name="021map - B41" parent="KF4 collision map" index="1519"]
+visible = false
+
+[node name="021map - B42" parent="KF4 collision map" index="1520"]
+visible = false
+
+[node name="021map - B43" parent="KF4 collision map" index="1521"]
+visible = false
+
+[node name="021map - B44" parent="KF4 collision map" index="1522"]
+visible = false
+
+[node name="021map - B45" parent="KF4 collision map" index="1523"]
+visible = false
+
+[node name="021map - B46" parent="KF4 collision map" index="1524"]
+visible = false
+
+[node name="021map - B47" parent="KF4 collision map" index="1525"]
+visible = false
+
+[node name="021map - B28" parent="KF4 collision map" index="1526"]
+visible = false
+
+[node name="021map - B48" parent="KF4 collision map" index="1527"]
+visible = false
+
+[node name="022map - B0" parent="KF4 collision map" index="1528"]
+visible = false
+
+[node name="022map - B1" parent="KF4 collision map" index="1529"]
+visible = false
+
+[node name="022map - B2" parent="KF4 collision map" index="1530"]
+visible = false
+
+[node name="022map - B3" parent="KF4 collision map" index="1531"]
+visible = false
+
+[node name="022map - B4" parent="KF4 collision map" index="1532"]
+visible = false
+
+[node name="022map - B5" parent="KF4 collision map" index="1533"]
+visible = false
+
+[node name="022map - B6" parent="KF4 collision map" index="1534"]
+visible = false
+
+[node name="022map - B7" parent="KF4 collision map" index="1535"]
+visible = false
+
+[node name="022map - B8" parent="KF4 collision map" index="1536"]
+visible = false
+
+[node name="022map - B9" parent="KF4 collision map" index="1537"]
+visible = false
+
+[node name="022map - B10" parent="KF4 collision map" index="1538"]
+visible = false
+
+[node name="022map - B11" parent="KF4 collision map" index="1539"]
+visible = false
+
+[node name="022map - B12001" parent="KF4 collision map" index="1540"]
+visible = false
+
+[node name="022map - B12002" parent="KF4 collision map" index="1541"]
+visible = false
+
+[node name="022map - B12003" parent="KF4 collision map" index="1542"]
+visible = false
+
+[node name="022map - B12004" parent="KF4 collision map" index="1543"]
+visible = false
+
+[node name="022map - B12005" parent="KF4 collision map" index="1544"]
+visible = false
+
+[node name="022map - B12006" parent="KF4 collision map" index="1545"]
+visible = false
+
+[node name="022map - B13001" parent="KF4 collision map" index="1546"]
+visible = false
+
+[node name="022map - B13002" parent="KF4 collision map" index="1547"]
+visible = false
+
+[node name="022map - B13003" parent="KF4 collision map" index="1548"]
+visible = false
+
+[node name="022map - B13004" parent="KF4 collision map" index="1549"]
+visible = false
+
+[node name="022map - B13005" parent="KF4 collision map" index="1550"]
+visible = false
+
+[node name="022map - B13006" parent="KF4 collision map" index="1551"]
+visible = false
+
+[node name="022map - B13007" parent="KF4 collision map" index="1552"]
+visible = false
+
+[node name="022map - B13" parent="KF4 collision map" index="1553"]
+visible = false
+
+[node name="022map - B12007" parent="KF4 collision map" index="1554"]
+visible = false
+
+[node name="022map - B12008" parent="KF4 collision map" index="1555"]
+visible = false
+
+[node name="022map - B12009" parent="KF4 collision map" index="1556"]
+visible = false
+
+[node name="022map - B12" parent="KF4 collision map" index="1557"]
+visible = false
+
+[node name="022map - B14" parent="KF4 collision map" index="1558"]
+visible = false
+
+[node name="022map - B15" parent="KF4 collision map" index="1559"]
+visible = false
+
+[node name="022map - B16001" parent="KF4 collision map" index="1560"]
+visible = false
+
+[node name="022map - B16" parent="KF4 collision map" index="1561"]
+visible = false
+
+[node name="022map - B17" parent="KF4 collision map" index="1562"]
+visible = false
+
+[node name="022map - B18" parent="KF4 collision map" index="1563"]
+visible = false
+
+[node name="022map - B19" parent="KF4 collision map" index="1564"]
+visible = false
+
+[node name="022map - B20" parent="KF4 collision map" index="1565"]
+visible = false
+
+[node name="022map - B21" parent="KF4 collision map" index="1566"]
+visible = false
+
+[node name="022map - B22" parent="KF4 collision map" index="1567"]
+visible = false
+
+[node name="022map - B23" parent="KF4 collision map" index="1568"]
+visible = false
+
+[node name="022map - B24" parent="KF4 collision map" index="1569"]
+visible = false
+
+[node name="022map - B25" parent="KF4 collision map" index="1570"]
+visible = false
+
+[node name="022map - B26" parent="KF4 collision map" index="1571"]
+visible = false
+
+[node name="022map - B27" parent="KF4 collision map" index="1572"]
+visible = false
+
+[node name="022map - B28" parent="KF4 collision map" index="1573"]
+visible = false
+
+[node name="022map - B29" parent="KF4 collision map" index="1574"]
+visible = false
+
+[node name="022map - B30" parent="KF4 collision map" index="1575"]
+visible = false
+
+[node name="022map - B31" parent="KF4 collision map" index="1576"]
+visible = false
+
+[node name="022map - B32" parent="KF4 collision map" index="1577"]
+visible = false
+
+[node name="022map - B33" parent="KF4 collision map" index="1578"]
+visible = false
+
+[node name="022map - B34" parent="KF4 collision map" index="1579"]
+visible = false
+
+[node name="022map - B35" parent="KF4 collision map" index="1580"]
+visible = false
+
+[node name="022map - B36" parent="KF4 collision map" index="1581"]
+visible = false
+
+[node name="022map - B37" parent="KF4 collision map" index="1582"]
+visible = false
+
+[node name="022map - B38" parent="KF4 collision map" index="1583"]
+visible = false
+
+[node name="022map - B39" parent="KF4 collision map" index="1584"]
+visible = false
+
+[node name="022map - B40" parent="KF4 collision map" index="1585"]
+visible = false
+
+[node name="023map - B0001" parent="KF4 collision map" index="1586"]
+visible = false
+
+[node name="023map - B0" parent="KF4 collision map" index="1587"]
+visible = false
+
+[node name="023map - B1" parent="KF4 collision map" index="1588"]
+visible = false
+
+[node name="023map - B2" parent="KF4 collision map" index="1589"]
+visible = false
+
+[node name="023map - B3" parent="KF4 collision map" index="1590"]
+visible = false
+
+[node name="023map - B4" parent="KF4 collision map" index="1591"]
+visible = false
+
+[node name="023map - B5" parent="KF4 collision map" index="1592"]
+visible = false
+
+[node name="023map - B6" parent="KF4 collision map" index="1593"]
+visible = false
+
+[node name="023map - B7" parent="KF4 collision map" index="1594"]
+visible = false
+
+[node name="023map - B8" parent="KF4 collision map" index="1595"]
+visible = false
+
+[node name="023map - B9" parent="KF4 collision map" index="1596"]
+visible = false
+
+[node name="023map - B10" parent="KF4 collision map" index="1597"]
+visible = false
+
+[node name="023map - B11" parent="KF4 collision map" index="1598"]
+visible = false
+
+[node name="023map - B12" parent="KF4 collision map" index="1599"]
+visible = false
+
+[node name="023map - B13" parent="KF4 collision map" index="1600"]
+visible = false
+
+[node name="023map - B14" parent="KF4 collision map" index="1601"]
+visible = false
+
+[node name="023map - B15001" parent="KF4 collision map" index="1602"]
+visible = false
+
+[node name="023map - B15" parent="KF4 collision map" index="1603"]
+visible = false
+
+[node name="024map - B0" parent="KF4 collision map" index="1604"]
+visible = false
+
+[node name="024map - B1" parent="KF4 collision map" index="1605"]
+visible = false
+
+[node name="024map - B2" parent="KF4 collision map" index="1606"]
+visible = false
+
+[node name="024map - B3" parent="KF4 collision map" index="1607"]
+visible = false
+
+[node name="024map - B4" parent="KF4 collision map" index="1608"]
+visible = false
+
+[node name="024map - B5" parent="KF4 collision map" index="1609"]
+visible = false
+
+[node name="024map - B6" parent="KF4 collision map" index="1610"]
+visible = false
+
+[node name="024map - B7001" parent="KF4 collision map" index="1611"]
+visible = false
+
+[node name="024map - B7002" parent="KF4 collision map" index="1612"]
+visible = false
+
+[node name="024map - B7" parent="KF4 collision map" index="1613"]
+visible = false
+
+[node name="024map - B8" parent="KF4 collision map" index="1614"]
+visible = false
+
+[node name="024map - B9" parent="KF4 collision map" index="1615"]
+visible = false
+
+[node name="024map - B10" parent="KF4 collision map" index="1616"]
+visible = false
+
+[node name="024map - B11" parent="KF4 collision map" index="1617"]
+visible = false
+
+[node name="024map - B12" parent="KF4 collision map" index="1618"]
+visible = false
+
+[node name="024map - B13" parent="KF4 collision map" index="1619"]
+visible = false
+
+[node name="024map - B14" parent="KF4 collision map" index="1620"]
+visible = false
+
+[node name="025map - B0" parent="KF4 collision map" index="1621"]
+visible = false
+
+[node name="025map - B1" parent="KF4 collision map" index="1622"]
+visible = false
+
+[node name="025map - B2" parent="KF4 collision map" index="1623"]
+visible = false
+
+[node name="025map - B3" parent="KF4 collision map" index="1624"]
+visible = false
+
+[node name="025map - B4" parent="KF4 collision map" index="1625"]
+visible = false
+
+[node name="025map - B5" parent="KF4 collision map" index="1626"]
+visible = false
+
+[node name="025map - B7" parent="KF4 collision map" index="1627"]
+visible = false
+
+[node name="025map - B8" parent="KF4 collision map" index="1628"]
+visible = false
+
+[node name="025map - B9001" parent="KF4 collision map" index="1629"]
+visible = false
+
+[node name="025map - B9002" parent="KF4 collision map" index="1630"]
+visible = false
+
+[node name="025map - B9003" parent="KF4 collision map" index="1631"]
+visible = false
+
+[node name="025map - B9004" parent="KF4 collision map" index="1632"]
+visible = false
+
+[node name="025map - B9005" parent="KF4 collision map" index="1633"]
+visible = false
+
+[node name="025map - B9006" parent="KF4 collision map" index="1634"]
+visible = false
+
+[node name="025map - B9007" parent="KF4 collision map" index="1635"]
+visible = false
+
+[node name="025map - B9" parent="KF4 collision map" index="1636"]
+visible = false
+
+[node name="025map - B10" parent="KF4 collision map" index="1637"]
+visible = false
+
+[node name="025map - B11" parent="KF4 collision map" index="1638"]
+visible = false
+
+[node name="025map - B12" parent="KF4 collision map" index="1639"]
+visible = false
+
+[node name="025map - B13" parent="KF4 collision map" index="1640"]
+visible = false
+
+[node name="026map - B0" parent="KF4 collision map" index="1641"]
+visible = false
+
+[node name="026map - B1001" parent="KF4 collision map" index="1642"]
+visible = false
+
+[node name="026map - B1002" parent="KF4 collision map" index="1643"]
+visible = false
+
+[node name="026map - B1003" parent="KF4 collision map" index="1644"]
+visible = false
+
+[node name="026map - B1004" parent="KF4 collision map" index="1645"]
+visible = false
+
+[node name="026map - B1005" parent="KF4 collision map" index="1646"]
+visible = false
+
+[node name="026map - B1" parent="KF4 collision map" index="1647"]
+visible = false
+
+[node name="026map - B2001" parent="KF4 collision map" index="1648"]
+visible = false
+
+[node name="026map - B2002" parent="KF4 collision map" index="1649"]
+visible = false
+
+[node name="026map - B2" parent="KF4 collision map" index="1650"]
+visible = false
+
+[node name="026map - B3" parent="KF4 collision map" index="1651"]
+visible = false
+
+[node name="026map - B4" parent="KF4 collision map" index="1652"]
+visible = false
+
+[node name="026map - B5" parent="KF4 collision map" index="1653"]
+visible = false
+
+[node name="026map - B6" parent="KF4 collision map" index="1654"]
+visible = false
+
+[node name="026map - B7" parent="KF4 collision map" index="1655"]
+visible = false
+
+[node name="026map - B8" parent="KF4 collision map" index="1656"]
+visible = false
+
+[node name="026map - B9" parent="KF4 collision map" index="1657"]
+visible = false
+
+[node name="026map - B10" parent="KF4 collision map" index="1658"]
+visible = false
+
+[node name="026map - B11" parent="KF4 collision map" index="1659"]
+visible = false
+
+[node name="026map - B12" parent="KF4 collision map" index="1660"]
+visible = false
+
+[node name="026map - B13" parent="KF4 collision map" index="1661"]
+visible = false
+
+[node name="026map - B14" parent="KF4 collision map" index="1662"]
+visible = false
+
+[node name="026map - B15" parent="KF4 collision map" index="1663"]
+visible = false
+
+[node name="026map - B16" parent="KF4 collision map" index="1664"]
+visible = false
+
+[node name="026map - B17" parent="KF4 collision map" index="1665"]
+visible = false
+
+[node name="026map - B18" parent="KF4 collision map" index="1666"]
+visible = false
+
+[node name="026map - B19" parent="KF4 collision map" index="1667"]
+visible = false
+
+[node name="026map - B20" parent="KF4 collision map" index="1668"]
+visible = false
+
+[node name="026map - B21" parent="KF4 collision map" index="1669"]
+visible = false
+
+[node name="026map - B22" parent="KF4 collision map" index="1670"]
+visible = false
+
+[node name="026map - B23" parent="KF4 collision map" index="1671"]
+visible = false
+
+[node name="026map - B24" parent="KF4 collision map" index="1672"]
+visible = false
+
+[node name="026map - B25" parent="KF4 collision map" index="1673"]
+visible = false
+
+[node name="026map - B26" parent="KF4 collision map" index="1674"]
+visible = false
+
+[node name="026map - B27" parent="KF4 collision map" index="1675"]
+visible = false
+
+[node name="026map - B28" parent="KF4 collision map" index="1676"]
+visible = false
+
+[node name="026map - B29" parent="KF4 collision map" index="1677"]
+visible = false
+
+[node name="027map - B0" parent="KF4 collision map" index="1678"]
+visible = false
+
+[node name="027map - B1" parent="KF4 collision map" index="1679"]
+visible = false
+
+[node name="027map - B2" parent="KF4 collision map" index="1680"]
+visible = false
+
+[node name="027map - B3001" parent="KF4 collision map" index="1681"]
+visible = false
+
+[node name="027map - B3002" parent="KF4 collision map" index="1682"]
+visible = false
+
+[node name="027map - B3003" parent="KF4 collision map" index="1683"]
+visible = false
+
+[node name="027map - B3" parent="KF4 collision map" index="1684"]
+visible = false
+
+[node name="027map - B4" parent="KF4 collision map" index="1685"]
+visible = false
+
+[node name="027map - B5" parent="KF4 collision map" index="1686"]
+visible = false
+
+[node name="027map - B6" parent="KF4 collision map" index="1687"]
+visible = false
+
+[node name="027map - B7" parent="KF4 collision map" index="1688"]
+visible = false
+
+[node name="027map - B8" parent="KF4 collision map" index="1689"]
+visible = false
+
+[node name="027map - B9" parent="KF4 collision map" index="1690"]
+visible = false
+
+[node name="027map - B10" parent="KF4 collision map" index="1691"]
+visible = false
+
+[node name="027map - B11" parent="KF4 collision map" index="1692"]
+visible = false
+
+[node name="027map - B12" parent="KF4 collision map" index="1693"]
+visible = false
+
+[node name="027map - B13" parent="KF4 collision map" index="1694"]
+visible = false
+
+[node name="027map - B14" parent="KF4 collision map" index="1695"]
+visible = false
+
+[node name="027map - B15" parent="KF4 collision map" index="1696"]
+visible = false
+
+[node name="027map - B16" parent="KF4 collision map" index="1697"]
+visible = false
+
+[node name="027map - B17" parent="KF4 collision map" index="1698"]
+visible = false
+
+[node name="027map - B18" parent="KF4 collision map" index="1699"]
+visible = false
+
+[node name="027map - B19" parent="KF4 collision map" index="1700"]
+visible = false
+
+[node name="027map - B20" parent="KF4 collision map" index="1701"]
+visible = false
+
+[node name="027map - B21" parent="KF4 collision map" index="1702"]
+visible = false
+
+[node name="027map - B22" parent="KF4 collision map" index="1703"]
+visible = false
+
+[node name="027map - B23" parent="KF4 collision map" index="1704"]
+visible = false
+
+[node name="027map - B24" parent="KF4 collision map" index="1705"]
+visible = false
+
+[node name="027map - B25" parent="KF4 collision map" index="1706"]
+visible = false
+
+[node name="027map - B26" parent="KF4 collision map" index="1707"]
+visible = false
+
+[node name="027map - B27" parent="KF4 collision map" index="1708"]
+visible = false
+
+[node name="027map - B28" parent="KF4 collision map" index="1709"]
+visible = false
+
+[node name="027map - B29" parent="KF4 collision map" index="1710"]
+visible = false
+
+[node name="027map - B30" parent="KF4 collision map" index="1711"]
+visible = false
+
+[node name="027map - B31" parent="KF4 collision map" index="1712"]
+visible = false
+
+[node name="027map - B32" parent="KF4 collision map" index="1713"]
+visible = false
+
+[node name="028map - B0" parent="KF4 collision map" index="1714"]
+visible = false
+
+[node name="028map - B1" parent="KF4 collision map" index="1715"]
+visible = false
+
+[node name="028map - B2" parent="KF4 collision map" index="1716"]
+visible = false
+
+[node name="028map - B3" parent="KF4 collision map" index="1717"]
+visible = false
+
+[node name="028map - B4" parent="KF4 collision map" index="1718"]
+visible = false
+
+[node name="028map - B5" parent="KF4 collision map" index="1719"]
+visible = false
+
+[node name="028map - B6" parent="KF4 collision map" index="1720"]
+visible = false
+
+[node name="028map - B7" parent="KF4 collision map" index="1721"]
+visible = false
+
+[node name="028map - B8" parent="KF4 collision map" index="1722"]
+visible = false
+
+[node name="028map - B9" parent="KF4 collision map" index="1723"]
+visible = false
+
+[node name="028map - B10" parent="KF4 collision map" index="1724"]
+visible = false
+
+[node name="028map - B11" parent="KF4 collision map" index="1725"]
+visible = false
+
+[node name="028map - B12" parent="KF4 collision map" index="1726"]
+visible = false
+
+[node name="031map - B0" parent="KF4 collision map" index="1727"]
+visible = false
+
+[node name="031map - B1" parent="KF4 collision map" index="1728"]
+visible = false
+
+[node name="031map - B2" parent="KF4 collision map" index="1729"]
+visible = false
+
+[node name="031map - B3" parent="KF4 collision map" index="1730"]
+visible = false
+
+[node name="031map - B4" parent="KF4 collision map" index="1731"]
+visible = false
+
+[node name="031map - B5001" parent="KF4 collision map" index="1732"]
+visible = false
+
+[node name="031map - B5002" parent="KF4 collision map" index="1733"]
+visible = false
+
+[node name="031map - B5003" parent="KF4 collision map" index="1734"]
+visible = false
+
+[node name="031map - B5004" parent="KF4 collision map" index="1735"]
+visible = false
+
+[node name="031map - B5" parent="KF4 collision map" index="1736"]
+visible = false
+
+[node name="031map - B6001" parent="KF4 collision map" index="1737"]
+visible = false
+
+[node name="031map - B6002" parent="KF4 collision map" index="1738"]
+visible = false
+
+[node name="031map - B6003" parent="KF4 collision map" index="1739"]
+visible = false
+
+[node name="031map - B6004" parent="KF4 collision map" index="1740"]
+visible = false
+
+[node name="031map - B6005" parent="KF4 collision map" index="1741"]
+visible = false
+
+[node name="031map - B6006" parent="KF4 collision map" index="1742"]
+visible = false
+
+[node name="031map - B6007" parent="KF4 collision map" index="1743"]
+visible = false
+
+[node name="031map - B6008" parent="KF4 collision map" index="1744"]
+visible = false
+
+[node name="031map - B6009" parent="KF4 collision map" index="1745"]
+visible = false
+
+[node name="031map - B6010" parent="KF4 collision map" index="1746"]
+visible = false
+
+[node name="031map - B6011" parent="KF4 collision map" index="1747"]
+visible = false
+
+[node name="031map - B6" parent="KF4 collision map" index="1748"]
+visible = false
+
+[node name="031map - B7" parent="KF4 collision map" index="1749"]
+visible = false
+
+[node name="031map - B8" parent="KF4 collision map" index="1750"]
+visible = false
+
+[node name="031map - B9" parent="KF4 collision map" index="1751"]
+visible = false
+
+[node name="043map - B0" parent="KF4 collision map" index="1752"]
+visible = false
+
+[node name="043map - B1" parent="KF4 collision map" index="1753"]
+visible = false
+
+[node name="043map - B2" parent="KF4 collision map" index="1754"]
+visible = false
+
+[node name="043map - B3" parent="KF4 collision map" index="1755"]
+visible = false
+
+[node name="043map - B4" parent="KF4 collision map" index="1756"]
+visible = false
+
+[node name="043map - B5" parent="KF4 collision map" index="1757"]
+visible = false
+
+[node name="043map - B6" parent="KF4 collision map" index="1758"]
+visible = false
+
+[node name="043map - B7" parent="KF4 collision map" index="1759"]
+visible = false
+
+[node name="043map - B8" parent="KF4 collision map" index="1760"]
+visible = false
+
+[node name="110map - B0" parent="KF4 collision map" index="1761"]
+visible = false
+
+[node name="110map - B1" parent="KF4 collision map" index="1762"]
+visible = false
+
+[node name="110map - B2" parent="KF4 collision map" index="1763"]
+visible = false
+
+[node name="110map - B3" parent="KF4 collision map" index="1764"]
+visible = false
+
+[node name="110map - B4" parent="KF4 collision map" index="1765"]
+visible = false
+
+[node name="110map - B5" parent="KF4 collision map" index="1766"]
+visible = false
+
+[node name="110map - B6" parent="KF4 collision map" index="1767"]
+visible = false
+
+[node name="110map - B7001" parent="KF4 collision map" index="1768"]
+visible = false
+
+[node name="110map - B7002" parent="KF4 collision map" index="1769"]
+visible = false
+
+[node name="110map - B7003" parent="KF4 collision map" index="1770"]
+visible = false
+
+[node name="110map - B7004" parent="KF4 collision map" index="1771"]
+visible = false
+
+[node name="110map - B7005" parent="KF4 collision map" index="1772"]
+visible = false
+
+[node name="110map - B7006" parent="KF4 collision map" index="1773"]
+visible = false
+
+[node name="110map - B7007" parent="KF4 collision map" index="1774"]
+visible = false
+
+[node name="110map - B7008" parent="KF4 collision map" index="1775"]
+visible = false
+
+[node name="110map - B7009" parent="KF4 collision map" index="1776"]
+visible = false
+
+[node name="110map - B7010" parent="KF4 collision map" index="1777"]
+visible = false
+
+[node name="110map - B7011" parent="KF4 collision map" index="1778"]
+visible = false
+
+[node name="110map - B7012" parent="KF4 collision map" index="1779"]
+visible = false
+
+[node name="110map - B7013" parent="KF4 collision map" index="1780"]
+visible = false
+
+[node name="110map - B7014" parent="KF4 collision map" index="1781"]
+visible = false
+
+[node name="110map - B7015" parent="KF4 collision map" index="1782"]
+visible = false
+
+[node name="110map - B7016" parent="KF4 collision map" index="1783"]
+visible = false
+
+[node name="110map - B7017" parent="KF4 collision map" index="1784"]
+visible = false
+
+[node name="110map - B7018" parent="KF4 collision map" index="1785"]
+visible = false
+
+[node name="110map - B7019" parent="KF4 collision map" index="1786"]
+visible = false
+
+[node name="110map - B7020" parent="KF4 collision map" index="1787"]
+visible = false
+
+[node name="110map - B7021" parent="KF4 collision map" index="1788"]
+visible = false
+
+[node name="110map - B7022" parent="KF4 collision map" index="1789"]
+visible = false
+
+[node name="110map - B7023" parent="KF4 collision map" index="1790"]
+visible = false
+
+[node name="110map - B7024" parent="KF4 collision map" index="1791"]
+visible = false
+
+[node name="110map - B7025" parent="KF4 collision map" index="1792"]
+visible = false
+
+[node name="110map - B7026" parent="KF4 collision map" index="1793"]
+visible = false
+
+[node name="110map - B7027" parent="KF4 collision map" index="1794"]
+visible = false
+
+[node name="110map - B7028" parent="KF4 collision map" index="1795"]
+visible = false
+
+[node name="110map - B7029" parent="KF4 collision map" index="1796"]
+visible = false
+
+[node name="110map - B7" parent="KF4 collision map" index="1797"]
+visible = false
+
+[node name="110map - B8" parent="KF4 collision map" index="1798"]
+visible = false
+
+[node name="110map - B9" parent="KF4 collision map" index="1799"]
+visible = false
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.7576, 10.9624, -24.1886 )
+far = 400.0
+script = ExtResource( 15 )
+default_velocity = 100.0
+
+[node name="000" parent="." instance=ExtResource( 2 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, 0.433868, 0, -0.0988076 )
+
+[node name="002" parent="." instance=ExtResource( 3 )]
+transform = Transform( -0.00999436, 0, 0.00033574, 0, 0.01, 0, -0.00033574, 0, -0.00999436, 3.69196, 0, -148.424 )
+
+[node name="004" parent="." instance=ExtResource( 5 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -195.472, 0, -72.6647 )
+visible = false
+
+[node name="005" parent="." instance=ExtResource( 4 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -144.153, -4.33955, 31.3575 )
+
+[node name="006" parent="." instance=ExtResource( 6 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -466.875, 33.577, -158.406 )
+
+[node name="007" parent="." instance=ExtResource( 7 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -442.088, 17.1506, -129.578 )
+
+[node name="008" parent="." instance=ExtResource( 8 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -255.027, -16.1682, 58.9703 )
+
+[node name="009" parent="." instance=ExtResource( 9 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -255.377, -16.4786, 59.0593 )
+
+[node name="011" parent="." instance=ExtResource( 10 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -143.81, -3.85737, -85.6334 )
+
+[node name="012" parent="." instance=ExtResource( 11 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -144.327, -3.98384, -85.5503 )
+
+[node name="013" parent="." instance=ExtResource( 12 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -396.687, 38.5289, -19.4505 )
+
+[node name="014" parent="." instance=ExtResource( 13 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -327.552, 30.4583, -69.8137 )
+
+[node name="015" parent="." instance=ExtResource( 14 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -144.325, -4.0178, -85.8996 )
+
+[editable path="KF4 collision map"]
