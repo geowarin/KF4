@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=2]
+[gd_scene load_steps=40 format=2]
 
 [ext_resource path="res://KF4 collision map.glb" type="PackedScene" id=1]
 [ext_resource path="res://maps/000.glb" type="PackedScene" id=2]
@@ -15,6 +15,30 @@
 [ext_resource path="res://maps/014.glb" type="PackedScene" id=13]
 [ext_resource path="res://maps/015.glb" type="PackedScene" id=14]
 [ext_resource path="res://FlyCam.gd" type="Script" id=15]
+[ext_resource path="res://maps/016.glb" type="PackedScene" id=16]
+[ext_resource path="res://maps/017.glb" type="PackedScene" id=17]
+[ext_resource path="res://maps/019.glb" type="PackedScene" id=18]
+[ext_resource path="res://maps/018.glb" type="PackedScene" id=19]
+[ext_resource path="res://maps/020.glb" type="PackedScene" id=20]
+[ext_resource path="res://maps/021.glb" type="PackedScene" id=21]
+[ext_resource path="res://maps/022.glb" type="PackedScene" id=22]
+[ext_resource path="res://maps/023.glb" type="PackedScene" id=23]
+[ext_resource path="res://maps/024.glb" type="PackedScene" id=24]
+[ext_resource path="res://maps/025.glb" type="PackedScene" id=25]
+[ext_resource path="res://maps/027.glb" type="PackedScene" id=26]
+[ext_resource path="res://maps/026.glb" type="PackedScene" id=27]
+[ext_resource path="res://maps/028.glb" type="PackedScene" id=28]
+[ext_resource path="res://maps/029.glb" type="PackedScene" id=29]
+[ext_resource path="res://maps/030.glb" type="PackedScene" id=30]
+[ext_resource path="res://maps/031.glb" type="PackedScene" id=31]
+[ext_resource path="res://maps/032.glb" type="PackedScene" id=32]
+[ext_resource path="res://maps/033.glb" type="PackedScene" id=33]
+[ext_resource path="res://maps/034.glb" type="PackedScene" id=34]
+[ext_resource path="res://maps/035.glb" type="PackedScene" id=35]
+[ext_resource path="res://maps/036.glb" type="PackedScene" id=36]
+[ext_resource path="res://maps/037.glb" type="PackedScene" id=37]
+[ext_resource path="res://maps/038.glb" type="PackedScene" id=38]
+[ext_resource path="res://maps/039.glb" type="PackedScene" id=39]
 
 [node name="Spatial" type="Spatial"]
 
@@ -3545,48 +3569,6 @@ visible = false
 [node name="039map - B14" parent="KF4 collision map" index="1174"]
 visible = false
 
-[node name="040map - B0" parent="KF4 collision map" index="1175"]
-visible = false
-
-[node name="040map - B1" parent="KF4 collision map" index="1176"]
-visible = false
-
-[node name="040map - B2" parent="KF4 collision map" index="1177"]
-visible = false
-
-[node name="040map - B3" parent="KF4 collision map" index="1178"]
-visible = false
-
-[node name="040map - B4" parent="KF4 collision map" index="1179"]
-visible = false
-
-[node name="040map - B5" parent="KF4 collision map" index="1180"]
-visible = false
-
-[node name="040map - B6" parent="KF4 collision map" index="1181"]
-visible = false
-
-[node name="040map - B7" parent="KF4 collision map" index="1182"]
-visible = false
-
-[node name="040map - B8" parent="KF4 collision map" index="1183"]
-visible = false
-
-[node name="040map - B9" parent="KF4 collision map" index="1184"]
-visible = false
-
-[node name="040map - B10" parent="KF4 collision map" index="1185"]
-visible = false
-
-[node name="040map - B11" parent="KF4 collision map" index="1186"]
-visible = false
-
-[node name="040map - B12" parent="KF4 collision map" index="1187"]
-visible = false
-
-[node name="040map - B13" parent="KF4 collision map" index="1188"]
-visible = false
-
 [node name="032map - B0" parent="KF4 collision map" index="1189"]
 visible = false
 
@@ -5424,7 +5406,7 @@ visible = false
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -23.7576, 10.9624, -24.1886 )
 far = 400.0
 script = ExtResource( 15 )
-default_velocity = 100.0
+default_velocity = 50.0
 
 [node name="000" parent="." instance=ExtResource( 2 )]
 transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, 0.433868, 0, -0.0988076 )
@@ -5434,7 +5416,6 @@ transform = Transform( -0.00999436, 0, 0.00033574, 0, 0.01, 0, -0.00033574, 0, -
 
 [node name="004" parent="." instance=ExtResource( 5 )]
 transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -195.472, 0, -72.6647 )
-visible = false
 
 [node name="005" parent="." instance=ExtResource( 4 )]
 transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -144.153, -4.33955, 31.3575 )
@@ -5465,5 +5446,77 @@ transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01
 
 [node name="015" parent="." instance=ExtResource( 14 )]
 transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -144.325, -4.0178, -85.8996 )
+
+[node name="016" parent="." instance=ExtResource( 16 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -356.136, -18.9131, -289.745 )
+
+[node name="017" parent="." instance=ExtResource( 17 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -0.074894, 0, 0.0113831 )
+
+[node name="018" parent="." instance=ExtResource( 19 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, 0.599808, 0, 0.364349 )
+
+[node name="019" parent="." instance=ExtResource( 18 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -306.958, -7.60615, -418.706 )
+
+[node name="020" parent="." instance=ExtResource( 20 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -473.202, -7.54852, -434.841 )
+
+[node name="021" parent="." instance=ExtResource( 21 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -535.018, -50.6179, 305.557 )
+
+[node name="022" parent="." instance=ExtResource( 22 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -242.353, -43.6676, 130.975 )
+
+[node name="023" parent="." instance=ExtResource( 23 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -242.578, -43.82, 130.806 )
+
+[node name="024" parent="." instance=ExtResource( 24 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -238.93, 8.84628, -485.966 )
+
+[node name="025" parent="." instance=ExtResource( 25 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -239.274, 6.68372, -484.888 )
+
+[node name="026" parent="." instance=ExtResource( 27 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -534.909, -49.5766, 241.152 )
+
+[node name="027" parent="." instance=ExtResource( 26 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -535.451, -50.0688, 240.912 )
+
+[node name="028" parent="." instance=ExtResource( 28 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -519.115, -60.0302, 249.158 )
+
+[node name="029" parent="." instance=ExtResource( 29 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -22.6323, -3.3404, -35.7526 )
+
+[node name="030" parent="." instance=ExtResource( 30 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -355.792, 45.0846, -165.766 )
+
+[node name="031" parent="." instance=ExtResource( 31 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -355.87, -41.4364, -10.7606 )
+
+[node name="032" parent="." instance=ExtResource( 32 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -180.052, -43.7066, 79.7494 )
+
+[node name="033" parent="." instance=ExtResource( 33 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -547.671, -42.4124, -222.561 )
+
+[node name="034" parent="." instance=ExtResource( 34 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -639.669, -42.212, -220.848 )
+
+[node name="035" parent="." instance=ExtResource( 35 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -356.859, -107.922, -150 )
+
+[node name="036" parent="." instance=ExtResource( 36 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -403.105, -136.646, -192.169 )
+
+[node name="037" parent="." instance=ExtResource( 37 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -340.882, -136.686, -179.706 )
+
+[node name="038" parent="." instance=ExtResource( 38 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -214.997, -133.874, -180.379 )
+
+[node name="039" parent="." instance=ExtResource( 39 )]
+transform = Transform( -0.01, 0, -8.74228e-10, 0, 0.01, 0, 8.74228e-10, 0, -0.01, -244.966, -209.6, -108.78 )
 
 [editable path="KF4 collision map"]
