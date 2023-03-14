@@ -22,7 +22,8 @@ func _input(event):
 	if event is InputEventMouseButton:
 		match event.button_index:
 			BUTTON_RIGHT:
-				Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED if event.pressed else Input.MOUSE_MODE_VISIBLE)
+				if (event.pressed):
+					Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED if Input.mouse_mode == Input.MOUSE_MODE_VISIBLE else Input.MOUSE_MODE_VISIBLE)
 			BUTTON_WHEEL_UP: # increase fly velocity
 				_velocity = clamp(_velocity * speed_scale, min_speed, max_speed)
 			BUTTON_WHEEL_DOWN: # decrease fly velocity
